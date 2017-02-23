@@ -1,3 +1,5 @@
+open_with vim
+rename transbest.mp4
 mkdir vimwiki
 mkdir astrogauranga
 mkdir django
@@ -31,11 +33,9 @@ extr
 fasd
 open_with chromium
 mkcd 00001
-delete
 fasd 001
 find .zpre
 find fa
-
 flat 
 bulkrename 
 bulkrename %s
@@ -45,6 +45,6 @@ flat
 flat 1
 flat 0
 open_with 4
-find .confi
-find rang
-mkdir plugins
+delete
+
+fzf_select model

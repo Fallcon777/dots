@@ -142,7 +142,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'mileszs/ack.vim'
+"Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
@@ -154,6 +154,7 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'vimwiki/vimwiki'
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/calendar-vim'
+Plugin 'junegunn/fzf'
 "Plugin 'Solarized'
 ""ctrlp
 let g:ctrlp_map = '<c-p>'
@@ -163,12 +164,8 @@ let g:ctrlp_working_path_mode = 'ra'
 ""simplyfold
 let g:SimpylFold_docstring_preview=1
 
-"ack
-nmap <leader>/ :Ack!<space>
-"let g:ackpreview = 2
-"let g:ackhighlight = 1
-cnoreabbrev Ack Ack!
-nnoremap <Leader>a :Ack!<Space>
+"ack Ag
+nmap <leader>/ :Ag<space>
 "  nerdtree          close vim if the only window left open is a NERDTree?
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -209,7 +206,9 @@ nmap <Leader>l <Plug>(easymotion-overwin-line)
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
-"
+"FZF
+map <C-l> :FZF<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 Plugin 'python-mode/python-mode'
 let g:pymode_python = 'python3'
 "Turn on the whole plugin      *'g:pymode'*
