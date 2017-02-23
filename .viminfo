@@ -638,268 +638,394 @@ $
 # Debug Line, история (начиная от свежего к старому):
 
 # Регистры:
-""0	LINE	0
+"0	LINE	0
 	map dff shell -f mv %S %d
-|3,1,0,1,1,0,1487864422,"map dff shell -f mv %S %d"
-"1	LINE	0
+|3,0,0,1,1,0,1487864422,"map dff shell -f mv %S %d"
+""1	LINE	0
 	
-|3,0,1,1,1,0,1487860223,""
+|3,1,1,1,1,0,1487878536,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1487860220,""
+|3,0,2,1,1,0,1487878346,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1487860218,""
+	#
+|3,0,3,1,1,0,1487878323,"#"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1487860194,""
+	"Alt-j to move to the tab to the left
+	"noremap <C-j> gT
+	" Alt-k to move to the tab to the right
+	"noremap <C-k> gt
+|3,0,4,1,4,0,1487878068,"\"Alt-j to move to the tab to the left","\"noremap <C-j> gT","\" Alt-k to move to the tab to the right","\"noremap <C-k> gt"
 "5	LINE	0
-	map yff shell -f rsync -rult %S %d      
-|3,0,5,1,1,0,1487860189,"map yff shell -f rsync -rult %S %d      "
+	""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+|3,0,5,1,1,0,1487878003,"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1487860185,""
+	" ширина отступов
+|3,0,6,1,1,0,1487877995,"\" ширина отступов"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1487849851,""
+|3,0,7,1,1,0,1487860223,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1487849849,""
+|3,0,8,1,1,0,1487860220,""
 "9	LINE	0
-	imporddt os
-|3,0,9,1,1,0,1487848900,"imporddt os"
+	
+|3,0,9,1,1,0,1487860218,""
 "a	CHAR	0
 	==
 |3,0,10,0,1,0,1487416671,"=="
 "-	CHAR	0
-	d
-|3,0,36,0,1,0,1487864480,"d"
+	 
+|3,0,36,0,1,0,1487878360," "
 
 # Глобальные отметки:
-'0  17  18  /media/arch/txt/git2.txt
-|4,48,17,18,1487876644,"/media/arch/txt/git2.txt"
-'1  53  0  ~/.config/psd/psd.conf
-|4,49,53,0,1487876632,"~/.config/psd/psd.conf"
-'2  1  0  ~/.config/dconf/user
-|4,50,1,0,1487876451,"~/.config/dconf/user"
-'3  234  0  ~/.config/ranger/rc.conf
-|4,51,234,0,1487875994,"~/.config/ranger/rc.conf"
-'4  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,52,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
-'5  6  0  /media/arch/txt/git2.txt
-|4,53,6,0,1487874460,"/media/arch/txt/git2.txt"
-'6  8345  28  /var/log/pacman.log
-|4,54,8345,28,1487873657,"/var/log/pacman.log"
-'7  59  0  ~/.log/lash/lash.log
-|4,55,59,0,1487873104,"~/.log/lash/lash.log"
-'8  19  0  ~/.log/lash/lash.log
-|4,56,19,0,1487873090,"~/.log/lash/lash.log"
-'9  19  0  ~/.log/lash/lash.log
-|4,57,19,0,1487873090,"~/.log/lash/lash.log"
+'0  173  2  ~/.git/COMMIT_EDITMSG
+|4,48,173,2,1487878695,"~/.git/COMMIT_EDITMSG"
+'1  232  0  ~/.vimrc
+|4,49,232,0,1487878545,"~/.vimrc"
+'2  54  17  ~/.xbindkeysrc
+|4,50,54,17,1487878368,"~/.xbindkeysrc"
+'3  1  0  ~/status
+|4,51,1,0,1487878089,"~/status"
+'4  104  0  ~/.vimrc
+|4,52,104,0,1487878073,"~/.vimrc"
+'5  104  0  ~/.vimrc
+|4,53,104,0,1487878073,"~/.vimrc"
+'6  17  18  /media/arch/txt/git2.txt
+|4,54,17,18,1487876644,"/media/arch/txt/git2.txt"
+'7  53  0  ~/.config/psd/psd.conf
+|4,55,53,0,1487876632,"~/.config/psd/psd.conf"
+'8  1  0  ~/.config/dconf/user
+|4,56,1,0,1487876451,"~/.config/dconf/user"
+'9  234  0  ~/.config/ranger/rc.conf
+|4,57,234,0,1487875994,"~/.config/ranger/rc.conf"
 
 # Список прыжков (сначала более свежие):
+-'  173  2  ~/.git/COMMIT_EDITMSG
+|4,39,173,2,1487878695,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1487878658,"~/.git/COMMIT_EDITMSG"
+-'  232  0  ~/.vimrc
+|4,39,232,0,1487878545,"~/.vimrc"
+-'  232  0  ~/.vimrc
+|4,39,232,0,1487878545,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487878438,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487878438,"~/.vimrc"
+-'  54  17  ~/.xbindkeysrc
+|4,39,54,17,1487878368,"~/.xbindkeysrc"
+-'  54  17  ~/.xbindkeysrc
+|4,39,54,17,1487878368,"~/.xbindkeysrc"
+-'  54  17  ~/.xbindkeysrc
+|4,39,54,17,1487878368,"~/.xbindkeysrc"
+-'  54  17  ~/.xbindkeysrc
+|4,39,54,17,1487878368,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1487878318,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1487878318,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1487878318,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1487878318,"~/.xbindkeysrc"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  1  0  ~/status
+|4,39,1,0,1487878089,"~/status"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  104  0  ~/.vimrc
+|4,39,104,0,1487878073,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1487877969,"~/.vimrc"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
 -'  17  18  /media/arch/txt/git2.txt
 |4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
 -'  53  0  ~/.config/psd/psd.conf
 |4,39,53,0,1487876632,"~/.config/psd/psd.conf"
--'  1  0  ~/.config/psd/psd.conf
-|4,39,1,0,1487876625,"~/.config/psd/psd.conf"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1487876451,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1487876451,"~/.config/dconf/user"
--'  234  0  ~/.config/ranger/rc.conf
-|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
--'  234  0  ~/.config/ranger/rc.conf
-|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
--'  234  0  ~/.config/ranger/rc.conf
-|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
--'  234  0  ~/.config/ranger/rc.conf
-|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
--'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  1  30  ~/.config/ranger/plugin_fasd_log.py
-|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  6  0  /media/arch/txt/git2.txt
-|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
--'  1  0  /media/arch/txt/git2.txt
-|4,39,1,0,1487874223,"/media/arch/txt/git2.txt"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  8345  28  /var/log/pacman.log
-|4,39,8345,28,1487873657,"/var/log/pacman.log"
--'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
-|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
--'  59  0  ~/.log/lash/lash.log
-|4,39,59,0,1487873104,"~/.log/lash/lash.log"
--'  59  0  ~/.log/lash/lash.log
-|4,39,59,0,1487873104,"~/.log/lash/lash.log"
--'  59  0  ~/.log/lash/lash.log
-|4,39,59,0,1487873104,"~/.log/lash/lash.log"
--'  59  0  ~/.log/lash/lash.log
-|4,39,59,0,1487873104,"~/.log/lash/lash.log"
--'  59  0  ~/.log/lash/lash.log
-|4,39,59,0,1487873104,"~/.log/lash/lash.log"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
 
 # История местных отметок (от более свежих к старым):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1487878694	0
+	"	173	2
+
+> ~/.vimrc
+	*	1487878544	0
+	"	232	0
+	^	159	6
+	.	245	0
+	+	42	19
+	+	36	0
+	+	37	0
+	+	39	0
+	+	28	0
+	+	38	0
+	+	143	0
+	+	160	6
+	+	165	0
+	+	144	0
+	+	164	1
+	+	167	0
+	+	145	0
+	+	167	0
+	+	146	0
+	+	168	0
+	+	166	0
+	+	167	0
+	+	172	0
+	+	147	0
+	+	172	9
+	+	175	0
+	+	173	0
+	+	175	0
+	+	149	0
+	+	175	18
+	+	172	3
+	+	179	0
+	+	150	0
+	+	179	0
+	+	151	0
+	+	180	0
+	+	160	0
+	+	192	13
+	+	195	11
+	+	196	0
+	+	160	0
+	+	238	0
+	+	236	0
+	+	160	0
+	+	238	0
+	+	154	0
+	+	210	26
+	+	40	22
+	+	39	8
+	+	41	14
+	+	42	14
+	+	41	14
+	+	39	8
+	+	42	14
+	+	39	34
+	+	40	37
+	+	42	0
+	+	41	26
+	+	42	40
+	+	41	40
+	+	16	16
+	+	47	0
+	+	110	18
+	+	109	0
+	+	155	22
+	+	186	10
+	+	189	8
+	+	186	6
+	+	189	6
+	+	1	0
+	+	2	0
+	+	89	9
+	+	89	0
+	+	186	6
+	+	189	6
+	+	156	0
+	+	155	25
+	+	155	24
+	+	156	6
+	+	114	0
+	+	114	7
+	+	64	13
+	+	240	54
+	+	241	0
+	+	243	0
+	+	242	51
+	+	243	0
+	+	242	51
+	+	243	3
+	+	157	6
+	+	1	0
+	+	154	0
+	+	194	0
+	+	240	0
+	+	239	0
+	+	158	17
+	+	199	15
+	+	159	5
+	+	56	0
+	+	58	0
+	+	89	0
+	+	154	0
+	+	158	0
+	+	245	0
+
+> ~/.xbindkeysrc
+	*	1487878367	0
+	"	54	17
+	.	54	17
+	+	5	0
+	+	36	0
+	+	50	10
+	+	54	17
+
+> ~/status
+	*	1487878086	0
+	"	1	0
 
 > ~/.config/psd/psd.conf
 	*	1487876630	0
@@ -1222,112 +1348,6 @@ $
 	"	5	0
 	.	1	0
 	+	1	0
-
-> ~/.vimrc
-	*	1487858806	0
-	"	1	0
-	^	165	6
-	.	165	5
-	+	42	0
-	+	40	0
-	+	40	22
-	+	41	19
-	+	42	19
-	+	36	0
-	+	37	0
-	+	39	0
-	+	28	0
-	+	38	0
-	+	149	0
-	+	166	6
-	+	171	0
-	+	150	0
-	+	170	1
-	+	173	0
-	+	151	0
-	+	173	0
-	+	152	0
-	+	174	0
-	+	172	0
-	+	173	0
-	+	178	0
-	+	153	0
-	+	178	9
-	+	181	0
-	+	179	0
-	+	181	0
-	+	155	0
-	+	181	18
-	+	178	3
-	+	185	0
-	+	156	0
-	+	185	0
-	+	157	0
-	+	186	0
-	+	166	0
-	+	198	13
-	+	201	11
-	+	202	0
-	+	166	0
-	+	244	0
-	+	242	0
-	+	166	0
-	+	244	0
-	+	160	0
-	+	216	26
-	+	40	22
-	+	39	8
-	+	41	14
-	+	42	14
-	+	41	14
-	+	39	8
-	+	42	14
-	+	39	34
-	+	40	37
-	+	42	0
-	+	41	26
-	+	42	40
-	+	41	40
-	+	16	16
-	+	47	0
-	+	116	18
-	+	115	0
-	+	161	22
-	+	192	10
-	+	195	8
-	+	192	6
-	+	195	6
-	+	1	0
-	+	2	0
-	+	92	9
-	+	94	9
-	+	92	0
-	+	94	0
-	+	192	6
-	+	195	6
-	+	162	0
-	+	161	25
-	+	161	24
-	+	162	6
-	+	120	0
-	+	120	7
-	+	66	13
-	+	246	54
-	+	247	0
-	+	249	0
-	+	248	51
-	+	249	0
-	+	248	51
-	+	249	3
-	+	163	6
-	+	1	0
-	+	160	0
-	+	200	0
-	+	246	0
-	+	245	0
-	+	164	17
-	+	205	15
-	+	165	5
 
 > ~/.config/ranger/commands.py
 	*	1487858307	0
@@ -2437,23 +2457,3 @@ $
 > /media/arch/001/dprojects/vite/astrogouranga/src/templates/about.html
 	*	1487451319	0
 	"	43	0
-
-> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra/index.html
-	*	1487448191	0
-	"	22	13
-	^	25	7
-	.	21	0
-	+	21	0
-
-> /media/arch/001/dprojects/scoops/astrogauranga/config/settings/common.py~
-	*	1487447184	0
-	"	1	0
-
-> /media/arch/001/dprojects/scoops/astrogauranga/requirements/base.txt
-	*	1487447111	0
-	"	27	0
-	^	43	0
-	.	13	0
-	+	43	0
-	+	41	0
-	+	13	0

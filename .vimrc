@@ -151,11 +151,11 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'easymotion/vim-easymotion'
-Plugin 'vim-scripts/translit_converter'
+"Plugin 'vim-scripts/translit_converter'
 Plugin 'vimwiki/vimwiki'
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/calendar-vim'
-Plugin 'Solarized'
+"Plugin 'Solarized'
 Plugin 'junegunn/fzf'
 ""ctrlp
 let g:ctrlp_map = '<c-p>'
@@ -242,7 +242,6 @@ let g:WikiGlobal = {}
 let g:WikiGlobal.nested_syntaxes = {'perl': 'perl', 'python': 'python', 'sh': 'sh'}
 " 		disable concealing of short links
 let g:vimwiki_url_maxsave = 42
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " !!! All of your Plugins must be added before the following line
 call vundle#end()            " required
