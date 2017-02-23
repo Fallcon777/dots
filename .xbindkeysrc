@@ -2,7 +2,6 @@
 # A list of keys is in /usr/include/X11/keysym.h and in
 # /usr/include/X11/keysymdef.h 
 # The XK_ is not needed. 
-#
 # List of modifier (on my keyboard): 
 #   Control, Shift, Mod1 (Alt), Mod2 (NumLock), 
 #   Mod3 (CapsLock), Mod4, Mod5 (Scroll). 
@@ -35,7 +34,6 @@ m:0xc + c:10
 m:0xc + c:11
     Control+Alt + 2
 
-
 "~/servis/script/touchdown.sh"
  m:0x8 + c:32
     Alt + o
@@ -49,11 +47,11 @@ m:0xc + c:11
 #"~/servis/script/mpd.sh"
 "mpc toggle"
     m:0x8 + c:58
-    Alt + m 
+    Alt + m
 
 #"~/servis/script/mpdlist.sh"
 #    m:0x9 + c:33
-#    Shift+Alt + p 
+#    Shift+Alt + p
 
 #"mocp --next"
 "mpc next"
