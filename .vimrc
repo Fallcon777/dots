@@ -157,12 +157,15 @@ Plugin 'majutsushi/tagbar'
 Plugin 'mattn/calendar-vim'
 "Plugin 'Solarized'
 Plugin 'junegunn/fzf'
+
 ""ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
+
 ""simplyfold
 let g:SimpylFold_docstring_preview=1
+
 "ack
 nmap <leader>/ :Ack!<space>
 "let g:ackpreview = 2
@@ -196,6 +199,7 @@ nmap <leader>bn :enew<cr>
 nmap <leader>bq :bp <BAR> bd #<cr>
 execute "set <M-q>=\eq"
 nnoremap <M-q> :bp <BAR> bd #<cr>
+"
 " == easymotion ==
 " <Leader>f{char} to move to {char}
 map  <Leader>f <Plug>(easymotion-bd-f)
