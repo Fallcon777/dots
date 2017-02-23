@@ -1,0 +1,160 @@
+# Path to your oh-my-zsh installation.
+ZSH=/usr/share/oh-my-zsh/
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="amuse"
+alias wget='wget -c'
+alias cl='clear'
+alias yosh='~/servis/script/yosh.sh'
+alias vzsh='vim $HOME/.zshrc'
+alias hi='history | egrep'
+alias wgetx='wget -v $(xclip -selection clipboard -o)'
+alias btr='sudo btrfs'
+alias btrs='sudo btrfs filesystem usage'
+alias cpr='cp --reflink=auto'
+alias pss='ps -ef |grep'
+alias psss='ps xauwww | grep -i'
+alias mplay='mplayer -shuffle -playlist <(find "$PWD" -type f)'
+alias mdvb='mplayer -dumpstream -dumpfile /tmp/mpstream.ts'
+alias pdf='mupdf -r 120 -A 8'
+alias syst="sudo systemctl"
+#alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -localtime -drive file=/mnt/raw/w7sm,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
+alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -localtime -drive file=/mnt/raw/W64raw,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
+alias spi='spicy -h 127.0.0.1 -p 5930'
+alias memo='free -m -l -t'
+alias mountt='mount | column -t'
+alias fox="wine /media/arch/progrwine/Foxit_Reader/FoxitReaderPortable.exe"
+alias sketch='env WINEPREFIX="/home/brihaspati/.local/share/wineprefixes/sketch2015" wine "C:\Program Files\SketchUp\SketchUp 2015\SketchUp.exe"'
+alias pacupg='sudo pacman -Syu'		# Synchronize with repositories and then upgrade packages.
+alias pacin='sudo pacman -S'		# Install specific package(s) from the repositories
+alias paci='pacman -Qi'		# Info
+alias pacins='sudo pacman -U'		# Install specific package not from the repositories but from a file 
+alias pacrem='sudo pacman -Rns'		# Remove the specified package(s), its configuration(s) and unneeded dependencies
+alias pacss='pacman -Ss'		# Search for package(s) in the repositories
+alias paclocs='pacman -Qs'		# Search for package(s) in the local database
+alias paclo="pacman -Qdt"		# List all packages which are orphaned
+alias pacc="sudo pacman -Sc"		# Clean cache - delete all not currently installed package files
+# '[r]emove [o]rphans' - recursively remove ALL orphaned packages
+alias pacro="paccache -r"
+alias wsp="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+#alias rmp="rm -i '$(echo /media/arch/audio/$(mpc -f %file% | head -n 1))'"        #remove music file mpd 
+#alias fmp="ln '$(echo /media/arch/audio/$(mpc -f %file% | head -n 1))' /media/arch/audio/kirtan/01fav/"        #add to fav 
+#alias fmp="cp --reflink=auto '$(echo /media/arch/audio/$(mpc -f %file% | head -n 1))' /media/arch/audio/kirtan/01fav/"        #add to fav 
+alias panch="et /media/arch/txt/2016panchhasta.xls"
+alias gparted="sudo gparted"
+alias ari="aria2c --daemon=false"
+alias aripwd="aria2c --dir=($PWD) --daemon=false"
+alias aritor="aria2c -i /home/brihaspati/arinput"
+alias arishow="aria2c --no-conf=true --show-files=true"
+#alias artor="aria2c -i /home/brihaspati/arinput --conf-path=/home/brihaspati/.aria2/ariator.conf"
+alias zynn="~/servis/script/zynadd.sh"
+#alias yooo="yoshimi -a -A -I && vkeybd --device alsa --addr 128:0"
+alias yooo="yoshimi -a -A -I -S '/home/brihaspati/.config/yoshimi/yoshimi.state'"
+alias mount="sudo mount"
+alias umount="sudo umount"
+alias db='sudo updatedb'
+alias dus="du -k * | sort -nr | cut -f2 | xargs -d '\n' du -sh"
+alias duss="du -ha | sort -n | grep '[0-9]M'"
+alias txt="vim ~/txt/comm333.txt"
+alias nc="ncmpcpp"
+#alias v='f -e vim'
+# fasd
+#eval "$(fasd --init posix-alias zsh-hook)"
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+export VISUAL=vim
+export EDITOR=$VISUAL
+# Uncomment the following line to disable bi-weekly auto-update checks.
+DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+#plugins=(taskwarrior)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export MANPATH="/usr/local/man:$MANPATH"
+# autostart fasd
+# eval "$(fasd --init posix-alias zsh-hook)"
+#eval "$(fasd --init auto)"
+#############################    grml    ##################
+# append history list to the history file; this is the default but we make sure
+setopt append_history
+# import new commands from the history file also in other zsh-session
+setopt share_history
+# save each command's beginning timestamp and the duration to the history file
+setopt extended_history
+# If a new command line being added to the history list duplicates an older
+# one, the older command is removed from the list
+setopt histignorealldups
+setopt HIST_IGNORE_DUPS
+# remove command lines from the history list when the first character on the
+# line is a space
+setopt histignorespace
+# if a command is issued that can't be executed as a normal command, and the
+# command is the name of a directory, perform the cd command to that directory.
+setopt auto_cd
+# display PID when suspending processes as well
+setopt longlistjobs
+# report the status of backgrounds jobs immediately
+setopt notify
+# whenever a command completion is attempted, make sure the entire command path
+# is hashed first.
+setopt hash_list_all
+# not just at the end
+setopt completeinword
+# Don't send SIGHUP to background processes when the shell exits.
+setopt nohup
+# make cd push the old directory onto the directory stack.
+setopt auto_pushd
+# avoid "beep"ing
+setopt nobeep
+# don't push the same dir twice.
+setopt pushd_ignore_dups
+# * shouldn't match dotfiles. ever.
+setopt noglobdots
+# use zsh style word splitting
+setopt noshwordsplit
+# don't error out when unset parameters are used
+setopt unset
+#Suffix aliases are supported in zsh since version 4.2.0. Some examples:
+alias -s txt=vim
+alias -s html=w3m
+alias -s mp3=mplayer
+
+alias -g EG='|& egrep'
+alias -g EH='|& head'
+alias -g EL='|& less'
+alias -g ET='|& tail -20'
+alias -g G='| egrep'
+alias -g H='| head'
+alias -g L="| less"
+alias -g T='| tail'
+

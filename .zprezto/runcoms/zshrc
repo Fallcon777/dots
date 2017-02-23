@@ -1,0 +1,49 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+alias wget='wget -c'
+alias cl='clear'
+alias yosh='~/servis/script/yosh.sh'
+alias vzsh='vim $HOME/.zprezto/runcoms/zshrc'
+alias hi='history | egrep'
+alias wgetx='wget -v $(xclip -selection clipboard -o)'
+alias btr='sudo btrfs'
+alias btrs='sudo btrfs filesystem usage'
+alias cpr='cp --reflink=auto'
+alias pss='ps -ef |grep'
+alias psss='ps xauwww | grep -i'
+alias mplay='mplayer -shuffle -playlist <(find "$PWD" -type f)'
+alias mdvb='mplayer -dumpstream -dumpfile /tmp/mpstream.ts'
+alias pdf='mupdf -r 120 -A 8'
+alias syst="sudo systemctl"
+#alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -localtime -drive file=/mnt/raw/W64raw,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
+#alias spi='spicy -h 127.0.0.1 -p 5930'
+alias memo='free -m -l -t'
+alias mountt='mount | column -t'
+#alias fox="wine /media/arch/progrwine/Foxit_Reader/FoxitReaderPortable.exe"
+#alias sketch='env WINEPREFIX="/home/brihaspati/.local/share/wineprefixes/sketch2015" wine "C:\Program Files\SketchUp\SketchUp 2015\SketchUp.exe"'
+#alias panch="et /media/arch/txt/2016panchhasta.xls"
+alias gparted="sudo gparted"
+alias ari="aria2c --daemon=false"
+alias wsp="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+alias yooo="yoshimi -a -A -I -S '/home/brihaspati/.config/yoshimi/yoshimi.state'"
+alias mount="sudo mount"
+alias umount="sudo umount"
+alias db='sudo updatedb'
+alias dus="du -k * | sort -nr | cut -f2 | xargs -d '\n' du -sh"
+alias duss="du -ha | sort -n | grep '[0-9]M'"
+alias txt="vim ~/txt/comm333.txt"
+alias nc="ncmpcpp"
+alias -g G='| egrep'
+
+
+# Customize to your needs...

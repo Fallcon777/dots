@@ -1,0 +1,118 @@
+!xcursor.theme:            Vanilla-DMZ
+URxvt*termName:           rxvt-256color
+URxvt.depth: 32
+URxvt*scrollBar:                      false
+URxvt*mouseWheelScrollPage:           false
+URxvt*cursorBlink:                    true
+URxvt*saveLines:                      5000
+URxvt*foreground: #839496 
+URxvt*background: #000000
+! Не прокручивать при выводе
+URxvt*scrollTtyOutput: false
+! прокручивать по отношению к буферу (прокрутка мышью или Shift+Page Up)
+URxvt*scrollWithBuffer: true
+! прокрутка по нажатию клавиши
+URxvt*scrollTtyKeypress: true
+URxvt.scrollstyle: plain
+!URxvt*font:xft:Terminus:pixelsize=14:style=regular,antialias=false
+!URxvt*boldFont:xft:Terminus:pixelsize=14:antialias=false
+URxvt.font: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-iso8859-* 
+URxvt.boldFont: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-iso8859-* 
+!URxvt.font: -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 
+!Urxvt.font: -*-terminus-bold-*-*-*-16-*-*-*-*-*-*-*
+!Urxvt.font: terv14n
+!URxvt*font:              xft:Tewi:regular:size=11
+!URxvt*imFont:            xft:Tewi:regular:size=11
+!URxvt*boldFont:          xft:Tewi:regular:size=11
+!URxvt*italicFont:        xft:Tewi:regular:size=11
+!URxvt*boldItalicFont:    xft:Tewi:regular:size=11
+!URxvt.font: xft:Fira Mono:pixelsize=15,style=regular
+!URxvt.boldFont: xft:Fira Mono:pixelsize=15,style=regular
+!URxvt.italicFont: xft:Fira Mono:pixelsize=15,style=bold
+!URxvt.boldItalicFont: xft:Fira Mono:pixelsize=15,style=bold
+!URxvt.font: 9x15
+!URxvt.boldFont: 9x15
+URxvt.internalBorder:     0
+URxvt*letterSpace: 0  
+!URxvt*letterSpace: 0  
+URxvt*selectToClipboard:  true
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+!Для назначения работы Ctrl+Shift, 
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt*cursorColor:        #8ae234
+!URxvt*colorUL:            #8ae234
+!URxvt.colorUL: #4682B4
+!URxvt*underlineColor:     #92659a
+!URxvt*colorBL:     #92659a
+URxvt.colorIT:      #87af5f
+URxvt.colorBD:      #8ae234           
+!URxvt.colorBD:      #ff6565
+URxvt.colorUL:      #87afd7
+! black dark/light
+URxvt*color0:             #000000
+URxvt*color8:             #555753
+! red dark/light
+URxvt*color1:             #cc0000
+URxvt*color9:             #ef2929
+! green dark/light
+URxvt*color2:             #4e9a06
+URxvt*color10:            #8ae234
+! yellow dark/light
+URxvt*color3:             #c4a000
+URxvt*color11:            #fce94f
+! blue dark/light
+URxvt*color4:             #3465a4
+URxvt*color12:            #729fcf
+! magenta dark/light
+URxvt*color5:             #75507b
+URxvt*color13:            #ad7fa8
+! cyan dark/light
+URxvt*color6:             #06989a
+URxvt*color14:            #34e2e2
+! white dark/light
+URxvt*color7:             #d3d7cf
+URxvt*color15:            #eeeeec
+! xscreensaver
+xscreensaver.fade:        false
+xscreensaver.unfade:      false
+
+! tangoesque scheme
+!*background: #111111
+*background: #000000
+*foreground: #babdb6
+! Black (not tango) + DarkGrey
+*color0:  #000000
+*color8:  #555753
+! DarkRed + Red
+*color1:  #ff6565
+*color9:  #ff8d8d
+! DarkGreen + Green
+*color2:  #93d44f
+*color10: #c8e7a8
+! DarkYellow + Yellow
+*color3:  #eab93d
+*color11: #ffc123
+! DarkBlue + Blue
+*color4:  #204a87
+*color12: #3465a4
+! DarkMagenta + Magenta
+*color5:  #ce5c00
+*color13: #f57900
+!DarkCyan + Cyan (both not tango)
+*color6:  #89b6e2
+*color14: #46a4ff
+! LightGrey + White
+*color7:  #cccccc
+*color15: #ffffff
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+

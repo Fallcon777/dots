@@ -1,0 +1,2459 @@
+# Этот файл viminfo автоматически создан Vim 8.0.
+# Его можно (осторожно!) редактировать.
+
+# Viminfo version
+|1,4
+
+# Значение опции 'encoding' в момент записи файла
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Последний Шаблон поиска:
+~MSle0~/Running 'pacman --color auto -U 
+
+# Последний Замена Шаблон поиска:
+~MSle0&user
+
+# Последняя строка для замены:
+$
+
+# Командная строка, история (начиная от свежего к старому):
+:sav ~/.config/ranger/plugin_fasd_log.py
+|2,0,1487875480,,"sav ~/.config/ranger/plugin_fasd_log.py"
+:FZF
+|2,0,1487859158,,"FZF"
+:PluginInstall
+|2,0,1487858795,,"PluginInstall"
+:sav extract
+|2,0,1487849640,,"sav extract"
+:%s/user/nakshatra/g
+|2,0,1487622045,,"%s/user/nakshatra/g"
+:sav astrogauranga/templates/nakshatra/list.html
+|2,0,1487620018,,"sav astrogauranga/templates/nakshatra/list.html"
+:sav astrogauranga/templates/nakshatra/nakshatra_list.html
+|2,0,1487619808,,"sav astrogauranga/templates/nakshatra/nakshatra_list.html"
+:sav astrogauranga/templates/nakshatra/nakshatraslist.html
+|2,0,1487619698,,"sav astrogauranga/templates/nakshatra/nakshatraslist.html"
+:%s/Taste/Nakshatra/g
+|2,0,1487612217,,"%s/Taste/Nakshatra/g"
+:w !sudo tee %
+|2,0,1487607100,,"w !sudo tee %"
+:e .vimrc
+|2,0,1487605365,,"e .vimrc"
+:PluginSearch solarized
+|2,0,1487605333,,"PluginSearch solarized"
+:Ack! 
+|2,0,1487586305,,"Ack! "
+:colorscheme morning
+|2,0,1487509470,,"colorscheme morning"
+:colorscheme murphy
+|2,0,1487509442,,"colorscheme murphy"
+:colorscheme peachpuff
+|2,0,1487509355,,"colorscheme peachpuff"
+:colorscheme pablo
+|2,0,1487509343,,"colorscheme pablo"
+:colorscheme evening
+|2,0,1487509294,,"colorscheme evening"
+:colorscheme desert
+|2,0,1487509285,,"colorscheme desert"
+:colorscheme delek
+|2,0,1487509274,,"colorscheme delek"
+:colorscheme default
+|2,0,1487509257,,"colorscheme default"
+:colorscheme blue
+|2,0,1487509250,,"colorscheme blue"
+:VWS char
+|2,0,1487425711,,"VWS char"
+:sav poi_list.html
+|2,0,1487448729,,"sav poi_list.html"
+:38
+|2,0,1487431901,,"38"
+:sav /media/arch/txt/comm333.wiki
+|2,0,1487431880,,"sav /media/arch/txt/comm333.wiki"
+:lopen
+|2,0,1487425938,,"lopen"
+:VWS /fields/
+|2,0,1487425921,,"VWS /fields/"
+:'<,'>emenu Enc.cp1251
+|2,0,1487423821,,"'<,'>emenu Enc.cp1251"
+:243
+|2,0,1487424312,,"243"
+:sav /media/arch/txt/vimwiki/django/model/fields_table.wiki
+|2,0,1487416064,,"sav /media/arch/txt/vimwiki/django/model/fields_table.wiki"
+:e txt/vimwiki/
+|2,0,1487414726,,"e txt/vimwiki/"
+:vsplit
+|2,0,1487414688,,"vsplit"
+:VimwikiTable
+|2,0,1487414627,,"VimwikiTable"
+:sav /media/arch/txt/vimwiki/django/index.wiki
+|2,0,1487408926,,"sav /media/arch/txt/vimwiki/django/index.wiki"
+:sav /media/arch/txt/vimwiki/
+|2,0,1487408897,,"sav /media/arch/txt/vimwiki/"
+:e astrogauranga/
+|2,0,1487363348,,"e astrogauranga/"
+:e models.py
+|2,0,1487360415,,"e models.py"
+:RivCreateDate
+|2,0,1487358133,,"RivCreateDate"
+:sav model.py
+|2,0,1487350801,,"sav model.py"
+:filetype python
+|2,0,1487350760,,"filetype python"
+:w 01temp
+|2,0,1487317586,,"w 01temp"
+:sav txt/comm333.rst
+|2,0,1487271583,,"sav txt/comm333.rst"
+:w!
+|2,0,1487194164,,"w!"
+:PluginSearch indentpython
+|2,0,1487193517,,"PluginSearch indentpython"
+:PluginClean
+|2,0,1487193453,,"PluginClean"
+:PluginList
+|2,0,1487193044,,"PluginList"
+:Torussian v
+|2,0,1487149112,,"Torussian v"
+:RivPrimer
+|2,0,1487183540,,"RivPrimer"
+:sav comm333.rst
+|2,0,1487183335,,"sav comm333.rst"
+:e /media/arch/01/01yashoda/sb3/
+|2,0,1487175271,,"e /media/arch/01/01yashoda/sb3/"
+:e ~/sb3.txt
+|2,0,1487175240,,"e ~/sb3.txt"
+:e sb3.txt
+|2,0,1487175176,,"e sb3.txt"
+:sav sb3ua.txt
+|2,0,1487155275,,"sav sb3ua.txt"
+:sav Srimat_Bhagavatam08_ua.txt
+|2,0,1487181465,,"sav Srimat_Bhagavatam08_ua.txt"
+:sav Srimat_Bhagavatam09ua.txt
+|2,0,1487181420,,"sav Srimat_Bhagavatam09ua.txt"
+:Torussian vv
+|2,0,1487155140,,"Torussian vv"
+:Torussian All
+|2,0,1487155120,,"Torussian All"
+:vspl
+|2,0,1487154588,,"vspl"
+:Torussian
+|2,0,1487154083,,"Torussian"
+:sav sb31.txt
+|2,0,1487154071,,"sav sb31.txt"
+:PluginSearch translit
+|2,0,1487147925,,"PluginSearch translit"
+:PluginInstall translit
+|2,0,1487147686,,"PluginInstall translit"
+:PluginSearch
+|2,0,1487147534,,"PluginSearch"
+:sav ~/sb3.txt
+|2,0,1487147513,,"sav ~/sb3.txt"
+:Riv2HtmlAndBrowse
+|2,0,1487027955,,"Riv2HtmlAndBrowse"
+:Riv2HtmlProject
+|2,0,1487027917,,"Riv2HtmlProject"
+:Riv2HtmlProject riva.rst
+|2,0,1487027908,,"Riv2HtmlProject riva.rst"
+:Riv2HtmlProject rivvv
+|2,0,1487027894,,"Riv2HtmlProject rivvv"
+:Riv2HtmlProject rivvv.html
+|2,0,1487027885,,"Riv2HtmlProject rivvv.html"
+:Riv2HtmlFile
+|2,0,1487027802,,"Riv2HtmlFile"
+:sav riva777.rst
+|2,0,1487027579,,"sav riva777.rst"
+:e txt/note/riv/01.rst
+|2,0,1487026694,,"e txt/note/riv/01.rst"
+:Riv2BuildPath
+|2,0,1487027065,,"Riv2BuildPath"
+:RivInstruction
+|2,0,1487027039,,"RivInstruction"
+:InstantRst
+|2,0,1487026994,,"InstantRst"
+:RivScratchView
+|2,0,1487024478,,"RivScratchView"
+:RivCreateStrong
+|2,0,1487024368,,"RivCreateStrong"
+:RivCreateContent
+|2,0,1487024190,,"RivCreateContent"
+:Ack! Naksh
+|2,0,1487012627,,"Ack! Naksh"
+:Ack! nakshatr
+|2,0,1487012591,,"Ack! nakshatr"
+:RivQuickStart
+|2,0,1487023596,,"RivQuickStart"
+:RivCheatSheet
+|2,0,1487023288,,"RivCheatSheet"
+:sav 08temp
+|2,0,1487022994,,"sav 08temp"
+:e ~/.vimrc
+|2,0,1487020733,,"e ~/.vimrc"
+:sav 04temp
+|2,0,1487021316,,"sav 04temp"
+:Ack! Planet
+|2,0,1487012520,,"Ack! Planet"
+:grep Planet
+|2,0,1487012116,,"grep Planet"
+:Ack! models
+|2,0,1487011954,,"Ack! models"
+:Ack! nakshatra
+|2,0,1487011919,,"Ack! nakshatra"
+:Ack! planet
+|2,0,1487011809,,"Ack! planet"
+:Ack! carousel
+|2,0,1487011426,,"Ack! carousel"
+:Ack! sign
+|2,0,1487011321,,"Ack! sign"
+:Ack model
+|2,0,1487010835,,"Ack model"
+:e runtime.txt
+|2,0,1487010665,,"e runtime.txt"
+:Ack! alias ~./zprezto
+|2,0,1487010565,,"Ack! alias ~./zprezto"
+:Ack! alias
+|2,0,1487010448,,"Ack! alias"
+:set hlsearch
+|2,0,1487004904,,"set hlsearch"
+:w!!
+|2,0,1486998340,,"w!!"
+:e /etc/fstab
+|2,0,1486998317,,"e /etc/fstab"
+:sav 04temp.txt
+|2,0,1486996923,,"sav 04temp.txt"
+:sav 03temp.txt
+|2,0,1486996871,,"sav 03temp.txt"
+:sav 02temp.txt
+|2,0,1486996834,,"sav 02temp.txt"
+:PluginSearch buffergator
+|2,0,1486996174,,"PluginSearch buffergator"
+:emenu SetSpell.en
+|2,0,1486995543,,"emenu SetSpell.en"
+:buffers
+|2,0,1486993622,,"buffers"
+:ball
+|2,0,1486993573,,"ball"
+:BufExplorer
+|2,0,1486993490,,"BufExplorer"
+:ls
+|2,0,1486993461,,"ls"
+:h buffer-list
+|2,0,1486992293,,"h buffer-list"
+:tab ball
+|2,0,1486991543,,"tab ball"
+:EnableStripWhitespaceOnSave
+|2,0,1486989919,,"EnableStripWhitespaceOnSave"
+:PluginSearch ctrlp
+|2,0,1486988955,,"PluginSearch ctrlp"
+:setfiletype python
+|2,0,1486847672,,"setfiletype python"
+:Bookmark scoop
+|2,0,1486846937,,"Bookmark scoop"
+:Bookmark vite
+|2,0,1486846833,,"Bookmark vite"
+:PluginSearch Nerd
+|2,0,1486845539,,"PluginSearch Nerd"
+:AckHelp
+|2,0,1486827260,,"AckHelp"
+:PluginSearch ack
+|2,0,1486827091,,"PluginSearch ack"
+:518
+|2,0,1486818198,,"518"
+:28
+|2,0,1486818190,,"28"
+:PluginSearch You
+|2,0,1486816000,,"PluginSearch You"
+:PluginSearch ycm
+|2,0,1486815546,,"PluginSearch ycm"
+:PluginSearch complete
+|2,0,1486815242,,"PluginSearch complete"
+:PluginSearch Valloric
+|2,0,1486815229,,"PluginSearch Valloric"
+:PluginSearch YouComplete
+|2,0,1486815209,,"PluginSearch YouComplete"
+:PluginInstall indentpython.vim
+|2,0,1486814775,,"PluginInstall indentpython.vim"
+:PluginInstall indentpython
+|2,0,1486814762,,"PluginInstall indentpython"
+:setfiletype
+|2,0,1486813954,,"setfiletype"
+:PluginInstall SimpylFold
+|2,0,1486813565,,"PluginInstall SimpylFold"
+:vsplit .zshrc
+|2,0,1486813127,,"vsplit .zshrc"
+:emenu Enc.utf-8
+|2,0,1486749944,,"emenu Enc.utf-8"
+:emenu Enc.koi8-r
+|2,0,1486749939,,"emenu Enc.koi8-r"
+:emenu Enc.cp1251
+|2,0,1486749935,,"emenu Enc.cp1251"
+:sav /media/arch/001/
+|2,0,1486477908,,"sav /media/arch/001/"
+:sav /media/arch/001/configvite.py
+|2,0,1486477444,,"sav /media/arch/001/configvite.py"
+:!sudo tee %
+|2,0,1485875318,,"!sudo tee %"
+:!sudo tee%
+|2,0,1485875572,,"!sudo tee%"
+:sudo !tee%
+|2,0,1485875559,,"sudo !tee%"
+:%s/^ //g
+|2,0,1485612973,,"%s/^ //g"
+:%s/Парам-//g
+|2,0,1485612939,,"%s/Парам-//g"
+:%s/Садхана //g
+|2,0,1485612923,,"%s/Садхана //g"
+:%s/Найдхана //g
+|2,0,1485612894,,"%s/Найдхана //g"
+:%s/Митра //g
+|2,0,1485612878,,"%s/Митра //g"
+:%s/Пратйак //g
+|2,0,1485612863,,"%s/Пратйак //g"
+:%s/ Пратйак //g
+|2,0,1485612850,,"%s/ Пратйак //g"
+:%s/Кшема //g
+|2,0,1485612819,,"%s/Кшема //g"
+:sav 001temp.txt
+|2,0,1485612788,,"sav 001temp.txt"
+:'<,'>
+|2,0,1485612776,,"'<,'>"
+:%s/.$//g
+|2,0,1485612708,,"%s/.$//g"
+
+# Строка поиска, история (начиная от свежего к старому):
+? \s\+$
+|2,1,1487875480,,"\\s\\+$"
+?/Running 'pacman --color auto -U 
+|2,1,1487872574,47,"Running 'pacman --color auto -U "
+?/pacman
+|2,1,1487868260,47,"pacman"
+?/map cw
+|2,1,1487870535,47,"map cw"
+?/filter
+|2,1,1487866816,47,"filter"
+?/map yff
+|2,1,1487864391,47,"map yff"
+?/flag
+|2,1,1487867104,47,"flag"
+?/EDITOR
+|2,1,1487867017,47,"EDITOR"
+?/map r
+|2,1,1487863205,47,"map r"
+?/map y
+|2,1,1487860127,47,"map y"
+?/map g
+|2,1,1487858356,47,"map g"
+?/gh
+|2,1,1487858328,47,"gh"
+?/plugin
+|2,1,1487858746,47,"plugin"
+?/go
+|2,1,1487856069,47,"go"
+?/open_with
+|2,1,1487854650,47,"open_with"
+?/open
+|2,1,1487854599,47,"open"
+?/map e
+|2,1,1487854577,47,"map e"
+?/E
+|2,1,1487854547,47,"E"
+?/\s\+$
+|2,1,1487852499,47,"\\s\\+$"
+?/fall
+|2,1,1487847144,47,"fall"
+?/fallcon777
+|2,1,1487847064,47,"fallcon777"
+?/YOUR_USERNAME_HERE
+|2,1,1487846897,47,"YOUR_USERNAME_HERE"
+?/foxit
+|2,1,1487769290,47,"foxit"
+?/fox
+|2,1,1487757450,47,"fox"
+?//
+|2,1,1487664280,47,"/"
+? user
+|2,1,1487622045,,"user"
+?/list
+|2,1,1487620947,47,"list"
+?/unicode
+|2,1,1487615976,47,"unicode"
+?/username
+|2,1,1487615609,47,"username"
+?/nakshatras
+|2,1,1487614467,47,"nakshatras"
+? Taste
+|2,1,1487612217,,"Taste"
+?/grep
+|2,1,1487613315,47,"grep"
+?/nakshatra
+|2,1,1487613087,47,"nakshatra"
+?/test
+|2,1,1487611519,47,"test"
+?/dmenu
+|2,1,1487598634,47,"dmenu"
+?/D
+|2,1,1487598510,47,"D"
+?/intel
+|2,1,1487598141,47,"intel"
+?/mesa
+|2,1,1487598128,47,"mesa"
+?/xorg
+|2,1,1487597990,47,"xorg"
+?/txt
+|2,1,1487586176,47,"txt"
+?/rsync
+|2,1,1487581644,47,"rsync"
+?/mplayer
+|2,1,1487581545,47,"mplayer"
+?/update
+|2,1,1487449348,47,"update"
+?/deta
+|2,1,1487449324,47,"deta"
+?/redirect
+|2,1,1487449290,47,"redirect"
+?/timefield
+|2,1,1487424740,47,"timefield"
+?/Timefield
+|2,1,1487424731,47,"Timefield"
+?/i/
+|2,1,1487408583,47,"i/"
+?/*
+|2,1,1487408343,47,"*"
+?/F10
+|2,1,1487357290,47,"F10"
+?/F9
+|2,1,1487356960,47,"F9"
+?/kk
+|2,1,1487351801,47,"kk"
+?/jj
+|2,1,1487351633,47,"jj"
+?/C-
+|2,1,1487318111,47,"C-"
+?/A-
+|2,1,1487318041,47,"A-"
+?/M-
+|2,1,1487317202,47,"M-"
+?/<C-
+|2,1,1487317167,47,"<C-"
+?/mpla
+|2,1,1487271425,47,"mpla"
+?/nnoremap
+|2,1,1487263210,47,"nnoremap"
+?/map <space>
+|2,1,1487263172,47,"map <space>"
+?/vnoremap <space>
+|2,1,1487263135,47,"vnoremap <space>"
+?/fold
+|2,1,1487262069,47,"fold"
+?/programs
+|2,1,1487190543,47,"programs"
+?/EOM
+|2,1,1487179952,47,"EOM"
+?/866
+|2,1,1487179919,47,"866"
+?/Г
+|2,1,1487155055,47,"Г"
+?/Ы
+|2,1,1487154668,47,"Ы"
+?/h
+|2,1,1487154545,47,"h"
+? \C\V
+|2,1,1487154083,,"\\C\\V"
+?/ц
+|2,1,1487153560,47,"ц"
+?/c-e
+|2,1,1487025648,47,"c-e"
+?/python-mode
+|2,1,1487019802,47,"python-mode"
+?/ack
+|2,1,1487012425,47,"ack"
+?/set showcmd
+|2,1,1487008468,47,"set showcmd"
+?/NERD
+|2,1,1487007736,47,"NERD"
+?/nerd
+|2,1,1487007724,47,"nerd"
+?/lasts
+|2,1,1487007575,47,"lasts"
+?/airline
+|2,1,1487007241,47,"airline"
+?/M
+|2,1,1487006408,47,"M"
+?/autoindent
+|2,1,1487005223,47,"autoindent"
+?/leader
+|2,1,1487004004,47,"leader"
+?/:w !sudo %
+|2,1,1486998402,47,":w !sudo %"
+?/w!!
+|2,1,1486998172,47,"w!!"
+?/\//
+|2,1,1486995251,47,"\\//"
+?/F12
+|2,1,1486995201,47,"F12"
+?/utf-8
+|2,1,1486994917,47,"utf-8"
+?/mapleader
+|2,1,1486994761,47,"mapleader"
+?/shiftwidth
+|2,1,1486994387,47,"shiftwidth"
+?/filetype plugin i
+|2,1,1486993058,47,"filetype plugin i"
+?/filetype plugin on
+|2,1,1486993034,47,"filetype plugin on"
+?/PL
+|2,1,1486989974,47,"PL"
+?/PLU
+|2,1,1486989364,47,"PLU"
+?/PLUGIN
+|2,1,1486989235,47,"PLUGIN"
+?/c-p
+|2,1,1486989216,47,"c-p"
+?/C-h
+|2,1,1486988276,47,"C-h"
+?/wrap
+|2,1,1486987953,47,"wrap"
+?/incsearch
+|2,1,1486987881,47,"incsearch"
+?/hlsearch
+|2,1,1486987857,47,"hlsearch"
+?/ignorecase
+|2,1,1486987825,47,"ignorecase"
+?/showmatch
+|2,1,1486987797,47,"showmatch"
+?/tabstop
+|2,1,1486987710,47,"tabstop"
+?/Chro
+|2,1,1486975839,47,"Chro"
+?/showcmd
+|2,1,1486891257,47,"showcmd"
+?/filetype
+|2,1,1486890897,47,"filetype"
+?/lead
+|2,1,1486890382,47,"lead"
+?/fil
+|2,1,1486889894,47,"fil"
+?/C-N
+|2,1,1486846473,47,"C-N"
+?/C-n
+|2,1,1486845927,47,"C-n"
+?/comp
+|2,1,1486835344,47,"comp"
+?/complete
+|2,1,1486827066,47,"complete"
+?//YouCompleteMe
+|2,1,1486827028,47,"/YouCompleteMe"
+?/za
+|2,1,1486818469,47,"za"
+?/White
+|2,1,1486818434,47,"White"
+?/call vundle#end()
+|2,1,1486816236,47,"call vundle#end()"
+?/C-L
+|2,1,1486813200,47,"C-L"
+?/compton
+|2,1,1486811509,47,"compton"
+?/bold
+|2,1,1486809254,47,"bold"
+?/program
+|2,1,1486800546,47,"program"
+?/firefox
+|2,1,1486802708,47,"firefox"
+?/request
+|2,1,1486806614,47,"request"
+?/A6
+|2,1,1486755936,47,"A6"
+?/wine
+|2,1,1486727761,47,"wine"
+?/trash
+|2,1,1486729494,47,"trash"
+?/panch
+|2,1,1486637537,47,"panch"
+?/pdf
+|2,1,1486637059,47,"pdf"
+?/winemenu
+|2,1,1486584324,47,"winemenu"
+?/show
+|2,1,1486581134,47,"show"
+?/block
+|2,1,1486497529,47,"block"
+?/active
+|2,1,1486496945,47,"active"
+?/app
+|2,1,1486500932,47,"app"
+?/env
+|2,1,1486493782,47,"env"
+?/project.css
+|2,1,1486483573,47,"project.css"
+?/.css
+|2,1,1486483561,47,".css"
+? @$
+|2,1,1486494803,,"@$"
+?/navbar
+|2,1,1486489710,47,"navbar"
+?/font
+|2,1,1486486702,47,"font"
+?/_navbar
+|2,1,1486480678,47,"_navbar"
+?/admin
+|2,1,1486477803,47,"admin"
+?/os.path
+|2,1,1486476601,47,"os.path"
+?/run
+|2,1,1485884599,47,"run"
+? ^ 
+|2,1,1485612973,,"^ "
+? Парам-
+|2,1,1485612939,,"Парам-"
+? Садхана 
+|2,1,1485612923,,"Садхана "
+? Найдхана 
+|2,1,1485612894,,"Найдхана "
+? Митра 
+|2,1,1485612878,,"Митра "
+? Пратйак 
+|2,1,1485612863,,"Пратйак "
+?  Пратйак 
+|2,1,1485612850,," Пратйак "
+? Кшема 
+|2,1,1485612819,,"Кшема "
+? .$
+|2,1,1485612708,,".$"
+
+# Выражение, история (начиная от свежего к старому):
+
+# Строка ввода, история (начиная от свежего к старому):
+@1
+|2,3,1487365850,,"1"
+@2
+|2,3,1487352429,,"2"
+@y
+|2,3,1487316608,,"y"
+@n
+|2,3,1487193324,,"n"
+@/home/brihaspati/001/dprojects/scoops/astrogauranga/testnode.txt
+|2,3,1486847350,,"/home/brihaspati/001/dprojects/scoops/astrogauranga/testnode.txt"
+
+# Debug Line, история (начиная от свежего к старому):
+
+# Регистры:
+""0	LINE	0
+	map dff shell -f mv %S %d
+|3,1,0,1,1,0,1487864422,"map dff shell -f mv %S %d"
+"1	LINE	0
+	
+|3,0,1,1,1,0,1487860223,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1487860220,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1487860218,""
+"4	LINE	0
+	
+|3,0,4,1,1,0,1487860194,""
+"5	LINE	0
+	map yff shell -f rsync -rult %S %d      
+|3,0,5,1,1,0,1487860189,"map yff shell -f rsync -rult %S %d      "
+"6	LINE	0
+	
+|3,0,6,1,1,0,1487860185,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1487849851,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1487849849,""
+"9	LINE	0
+	imporddt os
+|3,0,9,1,1,0,1487848900,"imporddt os"
+"a	CHAR	0
+	==
+|3,0,10,0,1,0,1487416671,"=="
+"-	CHAR	0
+	d
+|3,0,36,0,1,0,1487864480,"d"
+
+# Глобальные отметки:
+'0  17  18  /media/arch/txt/git2.txt
+|4,48,17,18,1487876644,"/media/arch/txt/git2.txt"
+'1  53  0  ~/.config/psd/psd.conf
+|4,49,53,0,1487876632,"~/.config/psd/psd.conf"
+'2  1  0  ~/.config/dconf/user
+|4,50,1,0,1487876451,"~/.config/dconf/user"
+'3  234  0  ~/.config/ranger/rc.conf
+|4,51,234,0,1487875994,"~/.config/ranger/rc.conf"
+'4  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,52,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+'5  6  0  /media/arch/txt/git2.txt
+|4,53,6,0,1487874460,"/media/arch/txt/git2.txt"
+'6  8345  28  /var/log/pacman.log
+|4,54,8345,28,1487873657,"/var/log/pacman.log"
+'7  59  0  ~/.log/lash/lash.log
+|4,55,59,0,1487873104,"~/.log/lash/lash.log"
+'8  19  0  ~/.log/lash/lash.log
+|4,56,19,0,1487873090,"~/.log/lash/lash.log"
+'9  19  0  ~/.log/lash/lash.log
+|4,57,19,0,1487873090,"~/.log/lash/lash.log"
+
+# Список прыжков (сначала более свежие):
+-'  17  18  /media/arch/txt/git2.txt
+|4,39,17,18,1487876644,"/media/arch/txt/git2.txt"
+-'  53  0  ~/.config/psd/psd.conf
+|4,39,53,0,1487876632,"~/.config/psd/psd.conf"
+-'  1  0  ~/.config/psd/psd.conf
+|4,39,1,0,1487876625,"~/.config/psd/psd.conf"
+-'  1  0  ~/.config/dconf/user
+|4,39,1,0,1487876451,"~/.config/dconf/user"
+-'  1  0  ~/.config/dconf/user
+|4,39,1,0,1487876451,"~/.config/dconf/user"
+-'  234  0  ~/.config/ranger/rc.conf
+|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
+-'  234  0  ~/.config/ranger/rc.conf
+|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
+-'  234  0  ~/.config/ranger/rc.conf
+|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
+-'  234  0  ~/.config/ranger/rc.conf
+|4,39,234,0,1487875994,"~/.config/ranger/rc.conf"
+-'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  27  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,27,0,1487875942,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1487875892,"~/.config/ranger/rc.conf"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  1  30  ~/.config/ranger/plugin_fasd_log.py
+|4,39,1,30,1487875395,"~/.config/ranger/plugin_fasd_log.py"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  6  0  /media/arch/txt/git2.txt
+|4,39,6,0,1487874460,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874455,"/media/arch/txt/git2.txt"
+-'  1  0  /media/arch/txt/git2.txt
+|4,39,1,0,1487874223,"/media/arch/txt/git2.txt"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  8345  28  /var/log/pacman.log
+|4,39,8345,28,1487873657,"/var/log/pacman.log"
+-'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  1  0  ~/.luckyBackup/profiles/homedot_to_WD.profile
+|4,39,1,0,1487873120,"~/.luckyBackup/profiles/homedot_to_WD.profile"
+-'  59  0  ~/.log/lash/lash.log
+|4,39,59,0,1487873104,"~/.log/lash/lash.log"
+-'  59  0  ~/.log/lash/lash.log
+|4,39,59,0,1487873104,"~/.log/lash/lash.log"
+-'  59  0  ~/.log/lash/lash.log
+|4,39,59,0,1487873104,"~/.log/lash/lash.log"
+-'  59  0  ~/.log/lash/lash.log
+|4,39,59,0,1487873104,"~/.log/lash/lash.log"
+-'  59  0  ~/.log/lash/lash.log
+|4,39,59,0,1487873104,"~/.log/lash/lash.log"
+
+# История местных отметок (от более свежих к старым):
+
+> ~/.config/psd/psd.conf
+	*	1487876630	0
+	"	53	0
+
+> ~/.config/dconf/user
+	*	1487876450	0
+	"	1	0
+
+> /media/arch/txt/git2.txt
+	*	1487876133	0
+	"	17	18
+
+> ~/.config/ranger/rc.conf
+	*	1487875927	0
+	"	234	0
+	^	234	0
+	.	234	0
+	+	335	4
+	+	576	5
+	+	322	0
+	+	323	81
+	+	331	0
+	+	341	0
+	+	370	0
+	+	371	33
+	+	372	0
+	+	373	0
+	+	374	0
+	+	373	33
+	+	375	33
+	+	377	33
+	+	379	24
+	+	381	24
+	+	376	0
+	+	378	0
+	+	380	0
+	+	252	0
+	+	251	6
+	+	252	18
+	+	253	19
+	+	384	0
+	+	383	22
+	+	382	26
+	+	347	0
+	+	346	0
+	+	234	0
+
+> ~/.config/ranger/plugin_fasd_log.py
+	*	1487875482	0
+	"	9	27
+	^	11	32
+	.	11	31
+	+	2	0
+	+	11	31
+
+> /var/log/pacman.log
+	*	1487873655	0
+	"	8345	28
+
+> ~/.luckyBackup/profiles/homedot_to_WD.profile
+	*	1487873125	0
+	"	27	0
+
+> ~/.log/lash/lash.log
+	*	1487873103	0
+	"	59	0
+
+> /media/arch/audio/classicKDFC.m3u
+	*	1487873057	0
+	"	1	0
+
+> /media/arch/txt/comm333.wiki
+	*	1487872503	0
+	"	303	0
+	^	35	0
+	.	15	0
+	+	244	81
+	+	244	63
+	+	244	71
+	+	245	0
+	+	240	10
+	+	240	0
+	+	237	0
+	+	238	0
+	+	240	9
+	+	262	4
+	+	33	5
+	+	18	0
+	+	17	1
+	+	17	87
+	+	2	0
+	+	2	1
+	+	2	0
+	+	33	2
+	+	43	0
+	+	42	10
+	+	79	35
+	+	80	0
+	+	128	0
+	+	127	7
+	+	148	0
+	+	149	1
+	+	155	1
+	+	233	60
+	+	234	0
+	+	235	64
+	+	236	0
+	+	237	30
+	+	241	0
+	+	242	64
+	+	244	80
+	+	244	0
+	+	297	0
+	+	296	0
+	+	295	6
+	+	296	0
+	+	300	0
+	+	299	7
+	+	282	0
+	+	281	6
+	+	309	0
+	+	322	5
+	+	322	6
+	+	323	0
+	+	322	0
+	+	329	104
+	+	329	138
+	+	329	17
+	+	330	39
+	+	331	0
+	+	330	99
+	+	331	94
+	+	330	69
+	+	329	1
+	+	13	127
+	+	13	0
+	+	14	24
+	+	12	0
+	+	11	50
+	+	12	32
+	+	13	56
+	+	11	31
+	+	12	26
+	+	3	73
+	+	11	0
+	+	10	69
+	+	9	0
+	+	8	40
+	+	7	0
+	+	27	0
+	+	32	20
+	+	32	0
+	+	32	21
+	+	32	22
+	+	32	0
+	+	32	23
+	+	32	10
+	+	32	0
+	+	32	10
+	+	32	39
+	+	32	36
+	+	32	0
+	+	14	26
+	+	34	50
+	+	35	1
+	+	32	0
+	+	36	0
+	+	39	0
+	+	2	0
+	+	38	0
+	+	15	0
+
+> /etc/fstab
+	*	1487872429	0
+	"	1	0
+	^	4	123
+	.	1	0
+	+	4	122
+	+	3	121
+	+	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/zs
+	*	1487872305	0
+	"	1	0
+
+> ~/.zpreztorc
+	*	1487872147	0
+	"	217	41
+	^	217	42
+	.	217	0
+	+	211	12
+	+	211	113
+	+	212	12
+	+	212	137
+	+	198	30
+	+	186	11
+	+	186	0
+	+	198	32
+	+	213	0
+	+	214	0
+	+	213	13
+	+	214	0
+	+	215	0
+	+	202	0
+	+	217	0
+
+> /tmp/tmp0s_97gan
+	*	1487871508	0
+	"	1	0
+
+> /tmp/tmpjwk0smqe
+	*	1487871499	0
+	"	1	0
+
+> /tmp/tmpekjfs3v5
+	*	1487871490	0
+	"	1	0
+
+> /tmp/tmps9z_elww
+	*	1487871484	0
+	"	1	0
+
+> ~/temp/moon2016
+	*	1487871400	0
+	"	1	0
+
+> /tmp/tmpkz2ckvjx
+	*	1487871321	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmpbzs4a08q
+	*	1487871306	0
+	"	1	0
+
+> /tmp/tmpzu2la0tn
+	*	1487871052	0
+	"	7	0
+	^	7	0
+	.	6	4
+	+	6	4
+
+> /tmp/tmpfz6ignqy
+	*	1487871003	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmp_vlvvqbm
+	*	1487870980	0
+	"	1	0
+
+> /tmp/tmpwf4jeam_
+	*	1487870809	0
+	"	1	0
+
+> /tmp/tmpo59vuzy9
+	*	1487870797	0
+	"	1	0
+
+> /tmp/tmp8lssx16u
+	*	1487870783	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/.fasd
+	*	1487867186	0
+	"	1	0
+
+> ~/.config/ranger/rifle.conf
+	*	1487867153	0
+	"	32	10
+	^	84	33
+	.	84	32
+	+	202	9
+	+	205	80
+	+	204	0
+	+	205	0
+	+	179	0
+	+	180	0
+	+	181	0
+	+	182	0
+	+	117	0
+	+	118	0
+	+	119	0
+	+	120	0
+	+	121	0
+	+	122	0
+	+	123	0
+	+	124	0
+	+	126	0
+	+	127	0
+	+	78	0
+	+	67	0
+	+	169	0
+	+	172	0
+	+	203	0
+	+	204	0
+	+	205	0
+	+	204	0
+	+	203	0
+	+	84	32
+
+> /media/arch/001/dprojects/vite/astrogouranga/src/accounts/views.py
+	*	1487859185	0
+	"	1	0
+
+> /media/arch/001/dprojects/vite/astrogouranga/src/astrogouranga/views.py
+	*	1487859155	0
+	"	1	0
+
+> ~/NERD_tree_1
+	*	1487858948	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1487858806	0
+	"	1	0
+	^	165	6
+	.	165	5
+	+	42	0
+	+	40	0
+	+	40	22
+	+	41	19
+	+	42	19
+	+	36	0
+	+	37	0
+	+	39	0
+	+	28	0
+	+	38	0
+	+	149	0
+	+	166	6
+	+	171	0
+	+	150	0
+	+	170	1
+	+	173	0
+	+	151	0
+	+	173	0
+	+	152	0
+	+	174	0
+	+	172	0
+	+	173	0
+	+	178	0
+	+	153	0
+	+	178	9
+	+	181	0
+	+	179	0
+	+	181	0
+	+	155	0
+	+	181	18
+	+	178	3
+	+	185	0
+	+	156	0
+	+	185	0
+	+	157	0
+	+	186	0
+	+	166	0
+	+	198	13
+	+	201	11
+	+	202	0
+	+	166	0
+	+	244	0
+	+	242	0
+	+	166	0
+	+	244	0
+	+	160	0
+	+	216	26
+	+	40	22
+	+	39	8
+	+	41	14
+	+	42	14
+	+	41	14
+	+	39	8
+	+	42	14
+	+	39	34
+	+	40	37
+	+	42	0
+	+	41	26
+	+	42	40
+	+	41	40
+	+	16	16
+	+	47	0
+	+	116	18
+	+	115	0
+	+	161	22
+	+	192	10
+	+	195	8
+	+	192	6
+	+	195	6
+	+	1	0
+	+	2	0
+	+	92	9
+	+	94	9
+	+	92	0
+	+	94	0
+	+	192	6
+	+	195	6
+	+	162	0
+	+	161	25
+	+	161	24
+	+	162	6
+	+	120	0
+	+	120	7
+	+	66	13
+	+	246	54
+	+	247	0
+	+	249	0
+	+	248	51
+	+	249	0
+	+	248	51
+	+	249	3
+	+	163	6
+	+	1	0
+	+	160	0
+	+	200	0
+	+	246	0
+	+	245	0
+	+	164	17
+	+	205	15
+	+	165	5
+
+> ~/.config/ranger/commands.py
+	*	1487858307	0
+	"	47	29
+	^	52	62
+	.	25	0
+	+	59	0
+	+	61	9
+	+	115	0
+	+	61	9
+	+	9	38
+	+	8	0
+	+	57	25
+	+	24	0
+	+	57	0
+	+	11	0
+	+	24	0
+	+	11	0
+	+	10	0
+	+	12	0
+	+	56	0
+	+	25	0
+
+> ~/.zprezto/modules/fasd/README.md
+	*	1487858090	0
+	"	26	6
+
+> ~/.zprezto/modules/fasd/init.zsh
+	*	1487857723	0
+	"	43	0
+
+> ~/01temp
+	*	1487856996	0
+	"	1	0
+
+> /media/arch/txt/01novaposhta.txt
+	*	1487855795	0
+	"	1	0
+
+> /media/arch/01/Regular_expression.html
+	*	1487854733	0
+	"	29	0
+
+> ~/.config/ranger/commands_full.py
+	*	1487848786	0
+	"	1430	0
+
+> ~/.config/ranger/__Tagbar__.1
+	*	1487848458	0
+	"	119	3
+	.	249	0
+	+	249	0
+
+> ~/.local/share/data/qBittorrent/nova3/engines/rutracker.py
+	*	1487847148	0
+	"	1	0
+
+> /media/arch/01/qbittplugin/rutracker.py
+	*	1487846927	0
+	"	9	29
+	^	9	30
+	.	17	0
+	+	8	33
+	+	17	0
+
+> ~/.cxoffice/foxitreader/desktopdata/cxmenu/Desktop.C^5E3A_users_crossover_Desktop/FoxitReader.lnk
+	*	1487757719	0
+	"	2	0
+
+> ~/Desktop/FoxitReader.desktop
+	*	1487757663	0
+	"	8	51
+
+> ~/001.py
+	*	1487757016	0
+	"	6	0
+	^	44	0
+	.	1	0
+	+	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatra/views.py
+	*	1487664823	0
+	"	41	0
+	^	26	74
+	.	24	0
+	+	2	0
+	+	38	0
+	+	3	0
+	+	4	0
+	+	7	25
+	+	4	0
+	+	5	32
+	+	29	0
+	+	30	3
+	+	38	3
+	+	30	24
+	+	38	24
+	+	7	0
+	+	8	0
+	+	11	0
+	+	30	0
+	+	37	0
+	+	31	0
+	+	11	0
+	+	7	0
+	+	8	25
+	+	3	52
+	+	38	0
+	+	29	10
+	+	37	10
+	+	38	34
+	+	38	25
+	+	38	3
+	+	38	7
+	+	38	0
+	+	39	8
+	+	38	0
+	+	39	8
+	+	38	0
+	+	39	11
+	+	38	0
+	+	38	10
+	+	38	33
+	+	3	64
+	+	31	40
+	+	31	26
+	+	32	30
+	+	31	0
+	+	42	0
+	+	31	31
+	+	44	0
+	+	30	39
+	+	31	0
+	+	30	52
+	+	30	31
+	+	30	0
+	+	31	0
+	+	8	0
+	+	30	0
+	+	38	0
+	+	13	0
+	+	16	0
+	+	17	23
+	+	18	27
+	+	15	27
+	+	33	0
+	+	34	23
+	+	35	27
+	+	3	78
+	+	19	0
+	+	21	28
+	+	25	32
+	+	26	32
+	+	26	73
+	+	24	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/users/views.py
+	*	1487664690	0
+	"	19	0
+	^	29	72
+	.	29	71
+	+	29	71
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatra/models.py
+	*	1487664535	0
+	"	34	0
+	^	34	21
+	.	34	20
+	+	28	0
+	+	27	6
+	+	28	8
+	+	27	0
+	+	36	0
+	+	37	0
+	+	40	27
+	+	41	29
+	+	41	0
+	+	36	35
+	+	33	31
+	+	40	0
+	+	42	0
+	+	35	10
+	+	24	32
+	+	25	0
+	+	42	0
+	+	21	39
+	+	22	0
+	+	23	0
+	+	24	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	27	0
+	+	26	38
+	+	25	0
+	+	26	29
+	+	25	0
+	+	25	30
+	+	25	0
+	+	27	27
+	+	28	29
+	+	30	0
+	+	29	31
+	+	37	0
+	+	38	0
+	+	41	0
+	+	42	0
+	+	21	0
+	+	29	0
+	+	28	29
+	+	29	31
+	+	35	0
+	+	37	0
+	+	38	0
+	+	41	0
+	+	42	0
+	+	20	0
+	+	21	29
+	+	21	60
+	+	20	0
+	+	21	63
+	+	20	0
+	+	26	0
+	+	27	0
+	+	26	63
+	+	26	61
+	+	25	0
+	+	27	0
+	+	26	61
+	+	26	64
+	+	26	63
+	+	25	0
+	+	27	38
+	+	27	84
+	+	26	0
+	+	28	86
+	+	28	0
+	+	29	54
+	+	29	66
+	+	28	0
+	+	40	0
+	+	11	0
+	+	18	3
+	+	43	0
+	+	14	0
+	+	30	0
+	+	3	0
+	+	26	40
+	+	25	0
+	+	9	0
+	+	3	0
+	+	4	0
+	+	5	11
+	+	16	0
+	+	19	0
+	+	18	0
+	+	34	20
+	+	18	0
+	+	17	0
+	+	18	0
+	+	48	0
+	+	47	0
+	+	37	65
+	+	2	0
+	+	37	57
+	+	37	71
+	+	36	0
+	+	34	20
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatra/urls.py
+	*	1487664534	0
+	"	9	0
+	^	24	28
+	.	24	27
+	+	47	0
+	+	47	8
+	+	47	0
+	+	47	7
+	+	44	0
+	+	47	8
+	+	44	0
+	+	48	0
+	+	44	0
+	+	47	0
+	+	46	0
+	+	44	0
+	+	7	0
+	+	23	3
+	+	23	7
+	+	7	0
+	+	23	23
+	+	7	0
+	+	23	13
+	+	7	0
+	+	23	3
+	+	24	0
+	+	23	0
+	+	24	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	34	0
+	+	23	0
+	+	31	14
+	+	36	14
+	+	37	3
+	+	32	0
+	+	67	0
+	+	43	0
+	+	6	0
+	+	5	0
+	+	6	77
+	+	23	13
+	+	25	13
+	+	30	13
+	+	6	98
+	+	32	0
+	+	35	13
+	+	32	0
+	+	23	14
+	+	26	14
+	+	31	14
+	+	36	14
+	+	8	0
+	+	10	19
+	+	10	27
+	+	7	0
+	+	6	0
+	+	23	0
+	+	23	13
+	+	25	13
+	+	30	13
+	+	35	13
+	+	23	15
+	+	24	15
+	+	23	0
+	+	43	0
+	+	43	21
+	+	43	19
+	+	37	0
+	+	23	0
+	+	24	31
+	+	23	21
+	+	37	5
+	+	23	0
+	+	18	0
+	+	22	0
+	+	23	21
+	+	23	19
+	+	22	0
+	+	27	0
+	+	32	0
+	+	23	0
+	+	13	0
+	+	43	0
+	+	34	23
+	+	32	0
+	+	34	14
+	+	10	44
+	+	10	68
+	+	7	0
+	+	10	45
+	+	17	0
+	+	27	0
+	+	23	4
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	38	0
+	+	40	19
+	+	37	0
+	+	24	27
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/users/urls.py
+	*	1487664534	0
+	"	14	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/users/models.py
+	*	1487664423	0
+	"	29	0
+	^	22	13
+	.	22	12
+	+	21	128
+	+	19	0
+	+	21	89
+	+	19	0
+	+	21	93
+	+	24	0
+	+	19	116
+	+	21	52
+	+	22	34
+	+	21	0
+	+	22	35
+	+	22	39
+	+	22	47
+	+	21	0
+	+	22	12
+	+	21	0
+	+	22	78
+	+	21	0
+	+	23	58
+	+	21	22
+	+	19	36
+	+	24	0
+	+	8	32
+	+	19	52
+	+	18	0
+	+	19	51
+	+	18	0
+	+	20	11
+	+	19	0
+	+	20	49
+	+	20	118
+	+	19	0
+	+	18	0
+	+	20	52
+	+	19	37
+	+	18	62
+	+	18	77
+	+	18	63
+	+	17	0
+	+	17	51
+	+	19	52
+	+	19	12
+	+	18	0
+	+	16	0
+	+	20	113
+	+	18	78
+	+	20	45
+	+	20	48
+	+	19	47
+	+	19	37
+	+	18	0
+	+	21	0
+	+	20	84
+	+	19	0
+	+	20	36
+	+	19	51
+	+	18	77
+	+	23	35
+	+	22	46
+	+	22	36
+	+	21	0
+	+	23	35
+	+	21	8
+	+	19	23
+	+	20	22
+	+	18	0
+	+	19	70
+	+	18	77
+	+	20	65
+	+	17	59
+	+	17	0
+	+	18	102
+	+	17	0
+	+	18	102
+	+	17	0
+	+	19	42
+	+	19	46
+	+	19	67
+	+	18	0
+	+	19	90
+	+	20	32
+	+	19	0
+	+	17	70
+	+	8	0
+	+	22	57
+	+	21	0
+	+	23	45
+	+	22	0
+	+	22	40
+	+	22	3
+	+	21	32
+	+	21	58
+	+	21	0
+	+	23	87
+	+	22	8
+	+	23	7
+	+	22	9
+	+	22	0
+	+	23	11
+	+	22	12
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/users/ControlP
+	*	1487664158	0
+	"	8	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatra/admin.py
+	*	1487628203	0
+	"	1	0
+	^	27	24
+	.	2	0
+	+	22	0
+	+	2	0
+	+	22	0
+	+	2	63
+	+	28	0
+	+	23	0
+	+	21	58
+	+	28	12
+	+	28	47
+	+	28	0
+	+	21	0
+	+	24	0
+	+	25	20
+	+	24	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	26	20
+	+	25	0
+	+	27	20
+	+	26	0
+	+	28	0
+	+	2	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/users/user_list.html
+	*	1487628177	0
+	"	12	12
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra/nakshatradata_list.html
+	*	1487628066	0
+	"	7	33
+	^	7	43
+	.	7	33
+	+	11	0
+	+	7	33
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/profiles/views.py
+	*	1487627891	0
+	"	22	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/ControlP
+	*	1487627260	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/account/signup.html
+	*	1487626686	0
+	"	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/account/login.html
+	*	1487626668	0
+	"	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/users/user_form.html
+	*	1487626583	0
+	"	14	4
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra/list.html
+	*	1487626444	0
+	"	7	0
+	^	7	38
+	.	7	37
+	+	1	0
+	+	18	0
+	+	10	0
+	+	15	0
+	+	18	0
+	+	7	37
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra/ControlP
+	*	1487626385	0
+	"	4	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra/nakshatra_list.html
+	*	1487625270	0
+	"	1	0
+	^	9	15
+	.	5	28
+	+	1	0
+	+	2	0
+	+	3	1
+	+	4	1
+	+	5	2
+	+	6	3
+	+	7	2
+	+	8	1
+	+	9	0
+	+	3	20
+	+	6	20
+	+	5	28
+
+> /media/arch/001/dprojects/scoops/astrogauranga/config/urls.py
+	*	1487623109	0
+	"	32	0
+	^	10	59
+	.	10	0
+	+	31	0
+	+	30	15
+	+	30	26
+	+	30	51
+	+	29	0
+	+	30	51
+	+	30	75
+	+	30	6
+	+	29	0
+	+	15	14
+	+	29	0
+	+	30	84
+	+	32	8
+	+	32	16
+	+	32	24
+	+	32	57
+	+	32	79
+	+	33	0
+	+	32	21
+	+	31	0
+	+	10	58
+	+	30	0
+	+	32	0
+	+	10	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/users/admin.py
+	*	1487615987	0
+	"	2	40
+	^	41	99
+	.	41	98
+	+	41	80
+	+	41	121
+	+	41	78
+	+	41	81
+	+	41	102
+	+	39	59
+	+	39	110
+	+	39	71
+	+	39	72
+	+	40	0
+	+	41	80
+	+	42	0
+	+	41	98
+
+> /media/arch/001/dprojects/scoops/astrogauranga/config/settings/common.py
+	*	1487614438	0
+	"	42	19
+	^	39	29
+	.	39	28
+	+	48	4
+	+	38	0
+	+	48	36
+	+	47	0
+	+	266	73
+	+	267	0
+	+	39	28
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatras/models.py
+	*	1487614393	0
+	"	39	0
+	^	23	55
+	.	22	0
+	+	13	57
+	+	12	0
+	+	22	36
+	+	22	37
+	+	21	0
+	+	23	130
+	+	22	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatras/urls.py
+	*	1487614377	0
+	"	2	0
+	^	25	24
+	.	25	23
+	+	9	0
+	+	11	0
+	+	20	23
+	+	25	23
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatras/views.py
+	*	1487614029	0
+	"	5	18
+	^	26	0
+	.	6	0
+	+	15	10
+	+	19	14
+	+	27	14
+	+	18	0
+	+	19	0
+	+	23	0
+	+	22	0
+	+	19	0
+	+	26	0
+	+	6	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/poi_list.html
+	*	1487613750	0
+	"	119	0
+	^	103	0
+	.	1	0
+	+	123	0
+	+	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatras/admin.py
+	*	1487612939	0
+	"	5	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/nakshatras/apps.py
+	*	1487612873	0
+	"	4	21
+	^	5	22
+	.	5	21
+	+	5	21
+
+> /media/arch/txt/vimcomm.txt
+	*	1487612019	0
+	"	71	1
+
+> astrogauranga/nakshatra/views.py
+	*	1487611809	0
+	"	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/Procfile
+	*	1487611121	0
+	"	1	0
+
+> ~/ControlP
+	*	1487611112	0
+	"	8	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.config/i3/autostart
+	*	1487608910	0
+	"	46	0
+	.	25	0
+	+	43	5
+	+	45	0
+	+	46	0
+	+	48	0
+	+	23	0
+	+	25	0
+
+> ~/.config/i3/config
+	*	1487608877	0
+	"	131	16
+	^	82	36
+	.	80	36
+	+	36	40
+	+	29	0
+	+	29	34
+	+	4	0
+	+	3	0
+	+	20	0
+	+	24	14
+	+	29	0
+	+	35	48
+	+	40	0
+	+	48	8
+	+	58	0
+	+	80	36
+
+> ~/__Tagbar__.1
+	*	1487608621	0
+	"	1	0
+	.	64	0
+	+	64	0
+
+> /mnt/sda/__boot/root/boot/grub/grub.cfg
+	*	1487607320	0
+	"	14	11
+	^	66	73
+	.	123	119
+	+	61	25
+	+	59	2
+	+	66	72
+	+	129	0
+	+	139	111
+	+	123	119
+
+> /mnt/sdb/rootnew/etc/fstab
+	*	1487606689	0
+	"	8	65
+	^	3	109
+	.	4	121
+	+	3	123
+	+	4	123
+	+	3	122
+	+	4	121
+
+> ~/.Xresources
+	*	1487606221	0
+	"	51	26
+	^	31	57
+	.	51	26
+	+	19	63
+	+	20	67
+	+	21	69
+	+	19	0
+	+	20	0
+	+	29	0
+	+	30	0
+	+	31	56
+	+	30	0
+	+	29	0
+	+	31	0
+	+	77	0
+	+	51	26
+
+> ~/[Vundle] search
+	*	1487605352	0
+	"	3	0
+	.	1	0
+	+	1	0
+
+> ~/pacmanexpl.list
+	*	1487599741	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1487597685	0
+	"	28	0
+
+> /media/arch/txt/vimwiki/archinst.wiki
+	*	1487597158	0
+	"	14	0
+	^	33	38
+	.	33	38
+	+	6	31
+	+	7	34
+	+	32	0
+	+	7	42
+	+	8	16
+	+	9	53
+	+	10	17
+	+	11	0
+	+	13	0
+	+	16	0
+	+	17	0
+	+	25	0
+	+	26	0
+	+	28	0
+	+	33	0
+	+	8	16
+	+	34	0
+	+	35	0
+	+	33	38
+
+> ~/yaourt.list
+	*	1487595854	0
+	"	1	0
+
+> /etc/mkinitcpio.conf
+	*	1487591914	0
+	"	7	20
+
+> /etc/hosts
+	*	1487591603	0
+	"	1	0
+
+> /etc/localtime
+	*	1487591067	0
+	"	1	0
+
+> /mnt/install/etc/fstab
+	*	1487590927	0
+	"	10	0
+	^	4	124
+	.	4	123
+	+	3	123
+	+	4	123
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1487581634	0
+	"	1	0
+
+> /media/arch/txt/comm333.rst
+	*	1487581511	0
+	"	379	0
+	^	305	5
+	.	305	4
+	+	366	3
+	+	366	4
+	+	368	10
+	+	380	0
+	+	366	0
+	+	367	4
+	+	368	9
+	+	368	10
+	+	375	0
+	+	368	9
+	+	344	6
+	+	367	4
+	+	368	4
+	+	374	0
+	+	369	0
+	+	371	4
+	+	372	5
+	+	374	0
+	+	372	5
+	+	374	0
+	+	375	4
+	+	376	4
+	+	375	0
+	+	325	6
+	+	343	0
+	+	315	10
+	+	316	10
+	+	310	1
+	+	307	4
+	+	314	0
+	+	308	0
+	+	310	2
+	+	314	2
+	+	310	2
+	+	314	0
+	+	314	2
+	+	314	0
+	+	315	0
+	+	290	4
+	+	310	49
+	+	311	54
+	+	312	56
+	+	313	2
+	+	314	0
+	+	309	0
+	+	317	0
+	+	326	0
+	+	340	5
+	+	341	0
+	+	308	3
+	+	310	47
+	+	311	50
+	+	310	1
+	+	312	1
+	+	313	1
+	+	312	52
+	+	313	68
+	+	302	3
+	+	291	0
+	+	297	0
+	+	275	6
+	+	255	8
+	+	256	7
+	+	255	7
+	+	245	5
+	+	241	5
+	+	229	4
+	+	230	3
+	+	215	5
+	+	216	4
+	+	198	2
+	+	191	3
+	+	166	5
+	+	167	4
+	+	81	6
+	+	4	2
+	+	32	86
+	+	34	43
+	+	32	0
+	+	34	0
+	+	33	3
+	+	1	0
+	+	282	0
+	+	287	22
+	+	287	23
+	+	287	80
+	+	287	81
+	+	287	63
+	+	287	71
+	+	288	0
+	+	283	10
+	+	283	0
+	+	280	0
+	+	281	0
+	+	283	9
+	+	305	4
+
+> /media/arch/txt/vimwiki/django/urls.wiki
+	*	1487509536	0
+	"	68	0
+	^	350	26
+	.	350	26
+	+	39	0
+	+	42	0
+	+	47	0
+	+	48	0
+	+	51	38
+	+	49	0
+	+	45	35
+	+	46	0
+	+	52	0
+	+	53	0
+	+	57	39
+	+	60	8
+	+	74	2
+	+	63	0
+	+	77	0
+	+	78	0
+	+	80	35
+	+	81	0
+	+	83	16
+	+	84	0
+	+	85	0
+	+	86	0
+	+	87	0
+	+	88	0
+	+	89	0
+	+	96	0
+	+	98	0
+	+	97	8
+	+	106	2
+	+	94	26
+	+	95	0
+	+	110	8
+	+	112	0
+	+	132	8
+	+	155	1
+	+	155	0
+	+	156	2
+	+	157	0
+	+	158	0
+	+	159	0
+	+	160	8
+	+	176	2
+	+	177	0
+	+	180	0
+	+	181	0
+	+	182	8
+	+	189	3
+	+	190	0
+	+	199	43
+	+	200	0
+	+	201	0
+	+	205	8
+	+	212	3
+	+	213	0
+	+	204	0
+	+	132	0
+	+	129	0
+	+	126	2
+	+	131	8
+	+	141	3
+	+	142	0
+	+	144	8
+	+	143	0
+	+	130	3
+	+	218	0
+	+	217	0
+	+	218	24
+	+	219	0
+	+	220	36
+	+	221	0
+	+	222	63
+	+	223	0
+	+	224	8
+	+	257	2
+	+	260	28
+	+	278	0
+	+	279	0
+	+	280	0
+	+	281	7
+	+	278	0
+	+	279	0
+	+	280	0
+	+	281	9
+	+	282	0
+	+	283	8
+	+	293	2
+	+	298	2
+	+	306	2
+	+	310	9
+	+	319	3
+	+	324	21
+	+	307	0
+	+	309	0
+	+	297	0
+	+	298	6
+	+	332	0
+	+	334	14
+	+	342	0
+	+	350	26
+
+> /media/arch/txt/vimwiki/django/index.wiki
+	*	1487509514	0
+	"	2	1
+	^	2	5
+	.	2	0
+	+	5	0
+	+	1	0
+	+	3	7
+	+	4	0
+	+	3	0
+	+	2	5
+	+	3	0
+	+	2	0
+
+> /media/arch/txt/vimwiki/index.wiki
+	*	1487509512	0
+	"	1	4
+	^	1	22
+	.	1	17
+	+	2	0
+	+	1	22
+	+	2	0
+	+	1	17
+
+> /media/arch/001/dprojects/vite/astrogouranga/src/templates/about.html
+	*	1487451319	0
+	"	43	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra/index.html
+	*	1487448191	0
+	"	22	13
+	^	25	7
+	.	21	0
+	+	21	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/config/settings/common.py~
+	*	1487447184	0
+	"	1	0
+
+> /media/arch/001/dprojects/scoops/astrogauranga/requirements/base.txt
+	*	1487447111	0
+	"	27	0
+	^	43	0
+	.	13	0
+	+	43	0
+	+	41	0
+	+	13	0

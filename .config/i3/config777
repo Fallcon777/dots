@@ -1,0 +1,145 @@
+# Mod-клавишa
+set $mod Mod4
+
+# scratchpad
+bindsym $mod+m move scratchpad
+bindsym $mod+o scratchpad show
+
+# Disable window titlebars entirely
+for_window [class="^.*"] border pixel 2
+
+
+font pango:DejaVu Sans Mono 8
+# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+#
+assign [class="^Chromium$"] 5
+assign [class="Midori"] 5
+# Start Applications
+bindsym $mod+F2 exec midori
+bindsym $mod+Shift+F2 exec chromium
+bindsym $mod+F3 exec pcmanfm
+# bindsym $mod+F3 exec ranger
+bindsym $mod+Shift+F3 exec gksu pcmanfm
+bindsym $mod+F5 exec urxvtc -e 'ncmpcpp'
+
+#for_window [class="^URxvt$" instance="scratchpad"] border 1pixel; move scratchpad
+#for_window [class="^zynaddsubfx$"] floating enable
+floating_modifier $mod
+
+#bindcode +36   "enter"
+bindcode $mod+36 exec urxvtc
+bindsym $mod+t exec urxvtc
+
+# kill focused window Win+Shift+Q
+bindcode $mod+Shift+24 kill
+#Start midori in workspace 5
+bindcode Mod1+41 exec --no-startup-id i3-msg workspace 5; exec midori
+workspace_auto_back_and_forth yes
+
+# start dmenu (a program launcher) d
+bindsym $mod+space exec dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_recency
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+# alternatively, you can use the cursor keys:
+bindcode $mod+113 focus left
+bindcode $mod+116 focus down
+bindcode $mod+111 focus up
+bindcode $mod+114 focus right
+
+# move focused window
+bindcode $mod+Shift+113 move left
+bindcode $mod+Shift+116 move down
+bindcode $mod+Shift+111 move up
+bindcode $mod+Shift+114 move right
+
+# split in horizontal orientation
+bindcode $mod+43 split v
+
+# split in vertical orientation
+bindcode $mod+55 split h
+
+# enter fullscreen mode for the focused container Win+f
+bindcode $mod+41 fullscreen
+
+# change container layout (stacked, tabbed, toggle split) Win+ {s w e}
+bindcode $mod+39 layout stacking
+bindcode $mod+25 layout tabbed
+bindcode $mod+26 layout toggle split
+
+# toggle tiling / floating  spase d
+bindcode $mod+Shift+40 floating toggle
+
+# change focus between tiling / floating windows
+#bindcode $mod+65 focus mode_toggle
+
+# focus the parent container a 
+bindcode $mod+38 focus parent
+
+# focus the child container 
+#bindsym $mod+d focus child
+
+# next/previous workspace
+bindsym $mod+Tab focus right
+bindsym $mod+Shift+Tab focus left
+# next/previous window 
+#bindsym Mod4+Tab focus right
+#bindsym Mod4+Shift+Tab focus left
+
+# switch to workspace Win+{1 2 3 4 5 6 7 8 9 0}
+bindcode $mod+10 workspace 1
+bindcode $mod+11 workspace 2
+bindcode $mod+12 workspace 3
+bindcode $mod+13 workspace 4
+bindcode $mod+14 workspace 5
+bindcode $mod+15 workspace 6
+bindcode $mod+16 workspace 7
+bindcode $mod+17 workspace 8
+bindcode $mod+18 workspace 9
+bindcode $mod+19 workspace 10
+
+# move focused container to workspace
+bindcode $mod+Shift+10 move container to workspace 1; workspace 1
+bindcode $mod+Shift+11 move container to workspace 2; workspace 2
+bindcode $mod+Shift+12 move container to workspace 3; workspace 3
+bindcode $mod+Shift+13 move container to workspace 4; workspace 4
+bindcode $mod+Shift+14 move container to workspace 5; workspace 5
+bindcode $mod+Shift+15 move container to workspace 6; workspace 6
+bindcode $mod+Shift+16 move container to workspace 7; workspace 7
+bindcode $mod+Shift+17 move container to workspace 8; workspace 8
+bindcode $mod+Shift+18 move container to workspace 9; workspace 9
+bindcode $mod+Shift+19 move container to workspace 10; workspace 10
+
+# reload the configuration file c 
+bindcode $mod+Shift+54 reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+# Win + r
+bindcode $mod+Shift+27 restart
+# exit i3 (logs you out of your X session) Win+Shift+e
+bindcode $mod+Shift+26 exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# resize window (you can also use the mouse for that) Win + r
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        bindcode 113 resize shrink width 10 px or 10 ppt
+        bindcode 116 resize grow height 10 px or 10 ppt
+        bindcode 111 resize shrink height 10 px or 10 ppt
+        bindcode 114 resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape
+        bindcode 36 mode "default"
+        bindcode 9 mode "default"
+}
+
+bindcode $mod+27 mode "resize"
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+        status_command i3status
+    mode hide
+    hidden_state hide
+    modifier $mod
+}
+exec --no-startup-id ~/.config/i3/autostart

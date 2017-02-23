@@ -1,0 +1,50 @@
+mkdir vimwiki
+mkdir astrogauranga
+mkdir django
+rename common.py~
+rename bu_common.py~
+rename upgrade.upg
+rename nakshatras
+rename resalt.html
+rename resalts.html
+rename nakshatra
+rename nakshatra_list.html
+rename nakshatradata_list.html
+rename rutracker.py~~~
+rename rutracker.py
+search .config
+search ran
+exhe
+cd
+unzip
+open_with unzip -j
+open_with eog
+open_with vlc
+open_with unzip
+open_with xarchiver
+open_with dtrx
+open_with
+shell vim 01novaposhta.txt -d
+shell -d vim 01novaposhta.txt 
+shell -d vim 
+extr
+fasd
+open_with chromium
+mkcd 00001
+delete
+fasd 001
+find .zpre
+find fa
+
+flat 
+bulkrename 
+bulkrename %s
+bulkrename %S
+bulkrename %d
+flat
+flat 1
+flat 0
+open_with 4
+find .confi
+find rang
+mkdir plugins

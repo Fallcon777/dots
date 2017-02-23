@@ -1,0 +1,50 @@
+#!/bin/sh
+wait_for_program () {
+n=0
+while true
+do
+# PID of last background command
+if xdotool search --onlyvisible --pid $! 2>/dev/null; then
+break
+else
+if [ $n -eq 90 ]; then
+notify-send -u critical "Error during start"
+break
+else
+n=`expr $n + 1`
+sleep 0.5
+fi
+fi
+done
+}
+## Merge Xresources
+#xrdb -merge ~/.Xresources &
+#xrdb ~/.Xresources &
+#xsetroot -solid '#101010' &
+feh --bg-scale "servis/wallpaper/krishna111.jpg" &
+#urxvtd -q -f -o &
+TERMINAL=urxvt
+#TERMINAL=terminator
+# Set startup volume (use pactl info to determine sink name)
+pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo '60%' &
+## Disable beeps
+xset -b &
+## Turns on the numlock key in X11
+#numlockx on &
+## Set LCD brightness
+xbacklight -set 70 &
+## Applets
+#LC_ALL=C parcellite &
+#LC_ALL=C nm-applet &
+dunst &
+xbindkeys &
+#terminator &
+mpd ~/.config/mpd/mpd.conf
+#mpd &
+xrefresh &
+#i3-msg workspace 4
+#i3-msg 'exec urxvtc -e mc'
+#sleep 1s
+#i3-msg workspace 1
+urxvtc &
+exit 0

@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/media/arch/iso/python/atro7'
+let g:netrw_dirhist_2='/usr/lib/python3.6/site-packages/pyswisseph-2.0.0.post2-py3.6.egg-info'
+let g:netrw_dirhist_3='/media/arch/001/01penv/astrogouranga/src/templates/admin'
+let g:netrw_dirhist_4='/media/arch/001/01penv/astrogouranga/src/templates'
+let g:netrw_dirhist_5='/media/arch/001/01penv/astrogouranga/src/templates/admin'
+let g:netrw_dirhist_6='/media/arch/001/01penv/astrogouranga/src/templates'
+let g:netrw_dirhist_7='/media/arch/001/dprojects/scoops/astrogauranga/astrogauranga/templates/nakshatra'

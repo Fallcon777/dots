@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-scale '/media/arch/archive/servis/wallpaper/krishna111.jpg' 

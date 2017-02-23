@@ -1,0 +1,137 @@
+#
+set $mod Mod4
+#font pango:DejaVu Sans Mono 8
+font pango:Hack, FontAwesome 10
+
+# Disable window titlebars entirely
+for_window [class="^.*"] border pixel 1
+bindsym $mod+Shift+f floating toggle
+focus_follows_mouse no
+#
+# change borders
+#bindsym $mod+u border none
+bindsym $mod+y border pixel 1
+bindsym $mod+n border normal
+#
+bindsym $mod+Ctrl+x exec xkill
+#
+assign [class="^QupZilla$"] 5
+assign [class="URxvt" title="mc"] 4
+#
+bindsym $mod+F2 exec qupzilla
+bindsym $mod+Shift+F2 exec midori
+bindsym $mod+F3 exec pcmanfm
+bindsym $mod+Shift+F3 exec urxvtc -e ranger
+bindsym $mod+F5 exec urxvtc -e 'ncmpcpp'
+#for_window [class="^URxvt$" instance="scratchpad"] border 1pixel; move scratchpad
+#for_window [class="^zynaddsubfx$"] floating enable
+floating_modifier $mod
+bindsym $mod+t exec urxvtc
+bindcode $mod+Shift+24 kill
+workspace_auto_back_and_forth yes
+bindsym $mod+space exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id dmenu_recency
+#
+bindcode $mod+113 focus left
+bindcode $mod+116 focus down
+bindcode $mod+111 focus up
+bindcode $mod+114 focus right
+#
+# move focused window
+bindcode $mod+Shift+113 move left
+bindcode $mod+Shift+116 move down
+bindcode $mod+Shift+111 move up
+bindcode $mod+Shift+114 move right
+#
+bindsym $mod+v split v;exec notify-send 'tile vertically'
+bindsym $mod+h split h;exec notify-send 'tile horizontally'
+#
+bindcode $mod+41 fullscreen
+bindsym $mod+g fullscreen global
+#
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+#
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+Shift+plus scratchpad show
+# next/previous workspace
+bindsym $mod+Tab focus right
+bindsym $mod+Shift+Tab focus left
+bindcode $mod+10 workspace 1
+bindcode $mod+11 workspace 2
+bindcode $mod+12 workspace 3
+bindcode $mod+13 workspace 4
+bindcode $mod+14 workspace 5
+bindcode $mod+15 workspace 6
+bindcode $mod+16 workspace 7
+bindcode $mod+17 workspace 8
+bindcode $mod+18 workspace 9
+bindcode $mod+19 workspace 10
+bindcode $mod+Shift+10 move container to workspace 1; workspace 1
+bindcode $mod+Shift+11 move container to workspace 2; workspace 2
+bindcode $mod+Shift+12 move container to workspace 3; workspace 3
+bindcode $mod+Shift+13 move container to workspace 4; workspace 4
+bindcode $mod+Shift+14 move container to workspace 5; workspace 5
+bindcode $mod+Shift+15 move container to workspace 6; workspace 6
+bindcode $mod+Shift+16 move container to workspace 7; workspace 7
+bindcode $mod+Shift+17 move container to workspace 8; workspace 8
+bindcode $mod+Shift+18 move container to workspace 9; workspace 9
+bindcode $mod+Shift+19 move container to workspace 10; workspace 10
+# reload the configuration file c 
+bindcode $mod+Shift+54 reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+# Win + r
+bindcode $mod+Shift+27 restart
+#bindcode $mod+Shift+26 exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+# resize window (you can also use the mouse for that) Win + r
+mode "resize" {
+        bindcode 113 resize shrink width 10 px or 10 ppt
+        bindcode 116 resize grow height 10 px or 10 ppt
+        bindcode 111 resize shrink height 10 px or 10 ppt
+        bindcode 114 resize grow width 10 px or 10 ppt
+        # back to normal: Enter or Escape
+        bindcode 36 mode "default"
+        bindcode 9 mode "default"
+}
+bindcode $mod+27 mode "resize"
+
+set $mode_power <span>        </span><span background='#fabd2f' foreground='#000000'> power </span> <span foreground='#ebdbb2'>l</span>ock <span foreground='#ebdbb2'>e</span>xit <span foreground='#ebdbb2'>s</span>uspend <span foreground='#ebdbb2'>r</span>eboot <span foreground='#ebdbb2'>p</span>oweroff
+mode --pango_markup "$mode_power" {
+    bindsym l mode "default", exec --no-startup-id $HOME/.config/i3/i3exit lock
+  # bindsym e mode "default", exec --no-startup-id $HOME/.config/i3/i3exit logout
+    bindsym e mode "default", exec --no-startup-id 'i3-msg exit'
+    bindsym s mode "default", exec --no-startup-id $HOME/.config/i3/i3exit suspend
+  # bindsym h mode "default", exec --no-startup-id $HOME/.config/i3/i3exit hibernate
+    bindsym r mode "default", exec --no-startup-id $HOME/.config/i3/i3exit reboot
+    bindsym p mode "default", exec --no-startup-id $HOME/.config/i3/i3exit shutdown
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindcode $mod+Shift+26 mode "$mode_power"
+
+force_display_urgency_hint 0 ms
+focus_on_window_activation urgent
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
+
+bar {
+        status_command i3status
+    mode hide
+    hidden_state hide
+    modifier $mod
+ 	position top
+}
+#exec --no-startup-id i3-msg workspace 4
+#exec --no-startup-id i3-msg 'exec urxvtc -e mc'
+exec --no-startup-id feh --bg-scale "servis/wallpaper/krishna111.jpg" 
+exec --no-startup-id compton -b
+#exec --no-startup-id i3-msg workspace 1
+exec --no-startup-id urxvtc
+exec --no-startup-id mpd $HOME/.config/mpd/mpd.conf
+exec --no-startup-id i3-msg 'exec urxvtc -e mc'
+client.focused #2ECC71 #2ECC71 #000000 #FFFFFF
+client.unfocused #222222 #222222 #2ECC71 #222222
+client.urgent #274D01 #900000 #FFFFFF #900000
+
+# vim:filetype=i3

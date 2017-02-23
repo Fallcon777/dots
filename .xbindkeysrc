@@ -1,0 +1,133 @@
+#
+# A list of keys is in /usr/include/X11/keysym.h and in
+# /usr/include/X11/keysymdef.h 
+# The XK_ is not needed. 
+#
+# List of modifier (on my keyboard): 
+#   Control, Shift, Mod1 (Alt), Mod2 (NumLock), 
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll). 
+#
+# Another way to specifie a key is to use 'xev' and set the 
+# keycode with c:nnn or the modifier with m:nnn where nnn is 
+# the keycode or the state returned by xev 
+#
+# This file is created by xbindkey_config 
+# The structure is : 
+# # Remark 
+# "command" 
+# m:xxx + c:xxx 
+# Shift+... 
+
+#keystate_numlock = enable
+#keystate_scrolllock = enable
+#keystate_capslock = enable
+
+#"xte 'mouseclick 2'"
+#b:6
+
+#"shutdown -h now"
+
+"systemctl suspend"
+m:0xc + c:10
+    Control+Alt + 1
+
+"systemctl poweroff"
+m:0xc + c:11
+    Control+Alt + 2
+
+
+"~/servis/script/touchdown.sh"
+ m:0x8 + c:32
+    Alt + o
+
+"~/servis/script/touchup.sh"
+ m:0x9 + c:32
+    Shift+Alt + o
+
+
+#"~/servis/script/moc.sh"
+#"~/servis/script/mpd.sh"
+"mpc toggle"
+    m:0x8 + c:58
+    Alt + m 
+
+#"~/servis/script/mpdlist.sh"
+#    m:0x9 + c:33
+#    Shift+Alt + p 
+
+#"mocp --next"
+"mpc next"
+   m:0x8 + c:57
+	 Alt + n
+
+#"mocp -G"
+#"mpc toggle"
+#    m:0x9 + c:58
+#    Shift+Alt + m 
+
+"setxkbmap -option grp:switch, us"
+    m:0x4 + c:10
+    Control + 1 
+
+"setxkbmap -option grp:switch, ru"
+    m:0x4 + c:11
+    Control + 2 
+
+"setxkbmap -option grp:switch, ua"
+    m:0x4 + c:12
+    Control + 3 
+
+"xbacklight -9"
+   m:0x0 + c:232
+   XF86MonBrightnessDown 
+
+"xbacklight =100"
+   m:0x0 + c:233
+   XF86MonBrightnessUp 
+
+#"urxvt -geometry 180x70 -e mc"
+"urxvtc -e mc"
+    m:0x8 + c:54
+    Alt + c 
+
+#"terminator"
+"urxvtc"
+    m:0x8 + c:28
+    Alt + t 
+
+#"firefox"
+#"chromium"
+#"midori"
+#    m:0x8 + c:41
+#    Alt + f 
+
+"leafpad"
+    m:0x8 + c:46
+    Alt + l 
+
+#"mocp -G"
+#    m:0x5 + c:58
+#    Control+Shift + m 
+
+"amixer -c 1 set Master 5%+ -q"
+m:0x0 + c:123
+XF86AudioRaiseVolume 
+#m:0x8 + c:74
+#   Alt + F8
+
+"amixer -c 1 set Master 5%- -q"
+m:0x0 + c:122
+XF86AudioLowerVolume 
+#m:0x8 + c:73
+#    Alt + F7
+
+"amixer set Master toggle -q"
+m:0x0 + c:121
+XF86AudioMute 
+
+#delsong
+#"~/servis/script/delsong.sh"
+#"mpc del 0"
+#    m:0x9 + c:40
+#    Shift+Alt + d 
+

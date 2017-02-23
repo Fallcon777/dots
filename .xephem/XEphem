@@ -1,0 +1,13 @@
+XEphem*Jupiter*FlipTB.set:                   True
+XEphem.Elevation:                            135.0 m
+XEphem.Lat:                                  45:48:43
+XEphem.Long:                                 -15:58:52
+XEphem.Sitename:                             Zagreb, Croatia
+XEphem.TZName:                               CET
+XEphem.TZone:                                -1:00:00
+XEphem*DateFormat.D/M/Y.set:                 True
+XEphem*DateFormat.M/D/Y.set:                 False
+XEphem*Equatorial.Topocentric.set:           False
+XEphem*TZone.Local.set:                      False
+XEphem*Moon*Spacecraft.set:                  False
+XEphem*Moon*Umbra.set:                       False
