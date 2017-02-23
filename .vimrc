@@ -53,10 +53,8 @@ set ts=4
 " перенос по словам, а не по буквам
 set linebreak
 set dy=lastline
-" ширина отступов
 set tabstop=4
 set shiftwidth=4
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap zz :w<cr>
 " Map Ctrl+V to paste in Insert mode
 imap <C-V> <C-R>*
@@ -88,10 +86,6 @@ map <F5> :emenu SetSpell.<Tab>
 " выбор альтернатив:
 imap <F6> <Esc> z=<CR>i
 map <F6> z=<CR>
-"Alt-j to move to the tab to the left
-"noremap <C-j> gT
-" Alt-k to move to the tab to the right
-"noremap <C-k> gt
 "<F8> Change encoding
                 set  wildmenu
                 set  wcm=<Tab>
