@@ -13,7 +13,6 @@ set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 "set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ file=%{&filetype}\ enc=%{&encoding}\ %b\ 0x%B\ %l,%c%V\ %P
 set laststatus=2
-"disable ex mode
 nmap Q q
 syntax enable
 let mapleader=" "
