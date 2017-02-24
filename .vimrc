@@ -1,5 +1,5 @@
 set nocompatible
-filetype off  								" required for plugin manager realy
+filetype off  								" required for plugin manager realy777
 set backspace=indent,eol,start
 set history=500
 set number
