@@ -20,7 +20,6 @@
 #keystate_numlock = enable
 #keystate_scrolllock = enable
 #keystate_capslock = enable
-
 #"xte 'mouseclick 2'"
 #b:6
 
@@ -43,8 +42,6 @@ m:0xc + c:11
     Shift+Alt + o
 
 
-#"~/servis/script/moc.sh"
-#"~/servis/script/mpd.sh"
 "mpc toggle"
     m:0x8 + c:58
     Alt + m

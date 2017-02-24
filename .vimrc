@@ -1,5 +1,5 @@
 set nocompatible
-filetype off  								" required for plugin manager
+filetype off  								" required for plugin manager endid
 set backspace=indent,eol,start
 set history=500
 set number
@@ -155,6 +155,7 @@ Plugin 'vimwiki/vimwiki'
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/calendar-vim'
 Plugin 'junegunn/fzf'
+Plugin 'tpope/vim-fugitive'
 "Plugin 'Solarized'
 ""ctrlp
 let g:ctrlp_map = '<c-p>'
@@ -164,8 +165,6 @@ let g:ctrlp_working_path_mode = 'ra'
 ""simplyfold
 let g:SimpylFold_docstring_preview=1
 
-"ack Ag
-nmap <leader>/ :Ag<space>
 "  nerdtree          close vim if the only window left open is a NERDTree?
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -206,9 +205,13 @@ nmap <Leader>l <Plug>(easymotion-overwin-line)
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
-"FZF
-map <C-l> :FZF<CR>
+"  FZF
+map <C-f> :FZF<CR>
+map <C-l> :Locate<space>
+map <C-m> :FZFMru<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"ack Ag
+nmap <leader>/ :Ag<space>
 Plugin 'python-mode/python-mode'
 let g:pymode_python = 'python3'
 "Turn on the whole plugin      *'g:pymode'*
@@ -239,7 +242,7 @@ let g:pymode_virtualenv = 1
 "vimwiki
 let g:vimwiki_list = [{'path': '/media/arch/txt/vimwiki'}]
 let g:WikiGlobal = {}
-let g:WikiGlobal.nested_syntaxes = {'perl': 'perl', 'python': 'python', 'sh': 'sh'}
+let g:WikiGlobal.nested_syntaxes = {'python': 'python', 'sh': 'sh'}
 " 		disable concealing of short links
 let g:vimwiki_url_maxsave = 42
 "
