@@ -1,5 +1,5 @@
 set nocompatible
-filetype off  								" required for plugin manager endid
+filetype off  								" required for plugin manager realy
 set backspace=indent,eol,start
 set history=500
 set number
@@ -168,7 +168,8 @@ let g:SimpylFold_docstring_preview=1
 "  nerdtree          close vim if the only window left open is a NERDTree?
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-"  vim-airline     Enable the list of buffers
+"  vim-airline
+"  Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
