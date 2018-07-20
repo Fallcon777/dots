@@ -2,6 +2,10 @@
   borderless = True
   window_state = maximise
 [keybindings]
+  go_down = <Alt>KP_Up
+  go_left = <Primary>KP_Left
+  go_right = <Primary>KP_Right
+  go_up = <Alt>KP_Up
   switch_to_tab_1 = <Alt>1
   switch_to_tab_10 = <Alt>0
   switch_to_tab_2 = <Alt>2
@@ -28,7 +32,7 @@
     background_color = "#002b36"
     cursor_color = "#839496"
     exit_action = hold
-    font = Monospace 10
+    font = xos4 Terminus 14
     foreground_color = "#839496"
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollback_infinite = True
@@ -37,18 +41,21 @@
     use_system_font = False
   [[fbless]]
     allow_bold = False
-    font = Terminus 15
+    cursor_color = "#5a5b5b"
+    font = TerminessTTF Nerd Font Mono Medium 15
     foreground_color = "#5a5b5b"
     palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     use_system_font = False
   [[gray]]
     allow_bold = False
     background_color = "#ffffdd"
+    cursor_color = "#000000"
     font = Fira Mono 10
     foreground_color = "#000000"
     use_system_font = False
   [[mc]]
     allow_bold = False
+    cursor_color = "#aaaaaa"
     font = Anonymous Pro 15
     palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     scrollback_lines = 2500

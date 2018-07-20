@@ -1,5 +1,15 @@
 set nocompatible
-filetype off  								" required for plugin manager realy777
+set viminfo=%,<800,'10,/50,:100,h,f0,n~/.vim/cache/.viminfo
+"           | |    |   |   |    | |  + viminfo file path
+"           | |    |   |   |    | + file marks 0-9,A-Z 0=NOT stored
+"           | |    |   |   |    + disable 'hlsearch' loading viminfo
+"           | |    |   |   + command-line history saved
+"           | |    |   + search history saved
+"           | |    + files marks saved
+"           | + lines saved each register (old name for <, vi6.2)
+"           + save/restore buffer list
+"           + save/restore buffer list
+filetype off  								" required for plugin manager
 set backspace=indent,eol,start
 set history=500
 set number
@@ -19,8 +29,10 @@ let mapleader=" "
 let g:mapleader=" "
 set mouse=a
 map <MiddleMouse> "+gP
-let g:solarized_termcolors=256
 colorscheme solarized
+let g:solarized_termcolors=256
+"colorscheme desert
+" LuciusBlack
 set background=dark
 set foldmethod=indent
 set foldlevel=99
@@ -31,14 +43,8 @@ filetype indent on
 " Set to auto read when a file is changed from the outside
 set autoread
 set magic
-"set nobackup
-"set nowb
-"set noswapfile
 set swapfile
-set dir=/media/arch/archive/vimtmp//
-set undodir=/media/arch/archive/vimtmp/vim/undo//
-set backupdir=/media/arch/archive/vimtmp/vim/backup//
-set directory=/media/arch/archive/vimtmp/vim/swp//
+set directory=~/.vim/swap//
 " по умолчанию - латинская раскладка
 set iminsert=0
 " по умолчанию - латинская раскладка при поиске
@@ -47,13 +53,9 @@ set imsearch=0
 set noequalalways
 set winheight=9999
 set iskeyword=@,48-57,_,192-255 " настраиваю для работы с русскими словами (чтобы w, b, * понимали русские слова)
-" задать размер табуляции в четыре пробела
-set ts=4
 " перенос по словам, а не по буквам
 set linebreak
 set dy=lastline
-set tabstop=4
-set shiftwidth=4
 nmap zz :w<cr>
 " Map Ctrl+V to paste in Insert mode
 imap <C-V> <C-R>*
@@ -61,12 +63,6 @@ imap <C-V> <C-R>*
 vmap <C-C> "+y
 " Add paste shortcut
 nmap <leader>p "+p
-"NERD_commenter
-nmap // <leader>c<space>
-"vmap // <leader>cs
-vmap // <leader>cn
-vmap /s <leader>cs
-nmap /s <leader>cs
 imap <F2> <Esc>:w<CR>
 map <F2> <Esc>:w<CR>
 imap <F3> "+y
@@ -95,22 +91,13 @@ map <F6> z=<CR>
                 menu Enc.ucs-2le    :e ++enc=ucs-2le<CR>
                 menu Enc.HexView    :Hex4me<CR>
                 map  <F8> :emenu Enc.<Tab>
-"<Shift+F8> Convert file encoding
-                set  wildmenu
-                set  wcm=<Tab>
-                menu FEnc.cp1251    :set fenc=cp1251<CR>
-                menu FEnc.koi8-r    :set fenc=koi8-r<CR>
-                menu FEnc.cp866     :set fenc=ibm866<CR>
-                menu FEnc.utf-8     :set fenc=utf-8<CR>
-                menu FEnc.ucs-2le   :set fenc=ucs-2le<CR>
-                map  <S-F8> :emenu FEnc.<Tab>
-"cmap w!! w !sudo tee > /dev/null %
-nnoremap <space> za
-vnoremap <space> zf
+map w!! w !sudo tee > /dev/null %
+"nnoremap <space> za
+"vnoremap <space> zf
 " по звездочке не прыгать на следующее найденное, а просто подсветить
 nnoremap * *N
 nnoremap <F9> :nohlsearch<CR>
-nmap <F7> :TagbarToggle<CR>
+"nmap <F7> :TagbarToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " "Files"                   Настройки для файлов {{{1
 set encoding=utf-8                                  " set charset translation encoding
@@ -121,13 +108,19 @@ set fileformat=unix          " Формат файла по умолчанию
 set fileformats=unix,dos,mac " Порядок определения формата файла
 set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
 "python PEP88
+"set textwidth=79  " строки длиннее 79 символов будут разбиваться
+set shiftwidth=4  " операция >> сдвигает на 4 позиции вправо;
+                  " << сдвигает на 4 позиции влево
+set tabstop=4     " табуляция имеет длину 4 позиции
+set expandtab     " использовать пробелы при табуляции
+set softtabstop=4 " добавление/удаление четырех пробелов при нажатии
+                  " клавиш TAB/BACKSPACE
+set shiftround    " округлять длину отступа до значения,
+                  " кратного значению параметра 'shiftwidth'
+set autoindent    " задавать для новой строки такой же отступ,
+                  " что и для предыдущей
 "au BufNewFile,BufRead *.py
-    "\ set tabstop=4
-    "\ set softtabstop=4
-    "\ set shiftwidth=4
-    "\ set textwidth=79
-    "\ set expandtab
-set autoindent
+"set autoindent
     "\ set fileformat=unix
 """other types
 "au BufNewFile,BufRead *.js, *.html, *.css
@@ -138,25 +131,24 @@ set autoindent
 " Vundle Plugin Manager
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+Plugin 'tpope/vim-surround'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'Valloric/YouCompleteMe'
-"Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'easymotion/vim-easymotion'
-"Plugin 'vim-scripts/translit_converter'
 Plugin 'vimwiki/vimwiki'
 Plugin 'majutsushi/tagbar'
-Plugin 'mattn/calendar-vim'
 Plugin 'junegunn/fzf'
+"Plugin 'junegunn/fzf'
 Plugin 'tpope/vim-fugitive'
-"Plugin 'Solarized'
+"Plugin 'vim-scripts/translit_converter'
+Plugin 'mileszs/ack.vim'
 ""ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
@@ -173,33 +165,37 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
-"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-" vim-buffergator     Use the right side of the screen
-let g:buffergator_viewport_split_policy = 'R'
-" I want my own keymappings...
-let g:buffergator_suppress_keymaps = 1
-" Go to the previous buffer open
-nmap <leader>jj :BuffergatorMruCyclePrev<cr>
-execute "set <M-j>=\ej"
-nnoremap <M-j> :BuffergatorMruCyclePrev<cr>
-execute "set <M-k>=\ek"
-nnoremap <M-k> :BuffergatorMruCycleNext<cr>
-" Go to the next buffer open
-nmap <leader>kk :BuffergatorMruCycleNext<cr>
-" View the entire list of buffers open
-nmap <leader>bl :BuffergatorOpen<cr>
+"buffer
+nnoremap <Leader>j :bp<CR>
+nnoremap <Leader>k :bn<CR>
+nnoremap <Leader>g :e#<CR>
 nmap <leader>bn :enew<cr>
 "close buffer
+nnoremap <Leader>q :bd<CR>
 nmap <leader>bq :bp <BAR> bd #<cr>
-execute "set <M-q>=\eq"
-nnoremap <M-q> :bp <BAR> bd #<cr>
-"
+nmap <leader>h :ls<cr>
+nnoremap <Leader>1 :1b<CR>
+nnoremap <Leader>2 :2b<CR>
+nnoremap <Leader>3 :3b<CR>
+nnoremap <Leader>4 :4b<CR>
+nnoremap <Leader>5 :5b<CR>
+nnoremap <Leader>6 :6b<CR>
+nnoremap <Leader>7 :7b<CR>
+nnoremap <Leader>8 :8b<CR>
+nnoremap <Leader>9 :9b<CR>
+nnoremap <Leader>0 :10b<CR>
+"NERD_commenter
+nmap // <leader>c<space>
+"vmap // <leader>cs
+vmap // <leader>cn
+vmap /s <leader>cs
+nmap /s <leader>cs
 " == easymotion ==
 " <Leader>f{char} to move to {char}
 map  <Leader>f <Plug>(easymotion-bd-f)
 nmap <Leader>f <Plug>(easymotion-overwin-f)
 " s{char}{char} to move to {char}{char}
-nmap s <Plug>(easymotion-overwin-f2)
+nmap <Leader>s <Plug>(easymotion-overwin-f2)
 " Move to line
 map <Leader>l <Plug>(easymotion-bd-jk)
 nmap <Leader>l <Plug>(easymotion-overwin-line)

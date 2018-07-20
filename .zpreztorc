@@ -1,15 +1,4 @@
-#
-# Sets Prezto options.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
-#
-# General
-#
-
-# Set case-sensitivity for completion, history lookup, etc.
+## Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
 
 # Color output (auto set to 'no' on dumb terminals).
@@ -32,15 +21,16 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'pacman' \
   'syntax-highlighting' \
   'history-substring-search' \
   'prompt'
+  #'pacman' \
 #zstyle ':prezto:module:pacman' frontend 'yaourt'
 #
 # Editor
 #
-
+export VISUAL=vim
+export EDITOR="$VISUAL"
 # Set the key mapping style to 'emacs' or 'vi'.
 zstyle ':prezto:module:editor' key-bindings 'vi'
 
@@ -79,7 +69,7 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 #
 
 # Set the Pacman frontend.
-zstyle ':prezto:module:pacman' frontend 'yaourt'
+#zstyle ':prezto:module:pacman' frontend 'yaourt'
 #
 # Prompt
 #
@@ -166,7 +156,9 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
 zstyle ':prezto:module:completion' editor-ignores 'yes'
 
 alias wget='wget -c'
-alias hhh='hnb'
+alias vir='vim -R'
+alias loc='locate'
+#alias hhh='hnb'
 alias cl='clear'
 alias yosh='~/servis/script/yosh.sh'
 alias vzsh='vim $HOME/.zpreztorc'
@@ -179,17 +171,17 @@ alias pss='ps -ef |grep'
 alias psss='ps xauwww | grep -i'
 alias pdf='mupdf -r 120 -A 8'
 alias syst="sudo systemctl"
-#alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -localtime -drive file=/mnt/raw/W64raw,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
 alias memo='free -m -l -t'
 alias mountt='mount | column -t'
 alias fox="env WINEPREFIX=/media/arch/archive/wineprefixes/w64 wine /media/arch/progrwine/foxport/FoxitReaderPortable.exe"
-#alias fox="env WINEPREFIX=/media/arch/archive/wineprefixes/w64 wine /media/arch/progrwine/foxport/FoxitReaderPortable.exe"
-#alias sketch='env WINEPREFIX="/home/brihaspati/.local/share/wineprefixes/sketch2015" wine "C:\Program Files\SketchUp\SketchUp 2015\SketchUp.exe"'
+alias sketch='env WINEPREFIX="/media/arch/archive/sketch2015" wine "C:\Program Files\SketchUp\SketchUp 2015\SketchUp.exe"'
+#alias sketch13='env WINEPREFIX="/media/arch/archive/wineprefixes/sk2013" WINEARCH=win32 wine "C:\Program Files\SketchUp\SketchUp 2013\SketchUp.exe"'
+#alias sketch='env WINEPREFIX=/media/arch/archive/wineprefixes/w64sketch WINEARCH=win64 wine /media/arch/archive/wineprefixes/w64sketch/drive_c/Program\ Files/SketchUp/SketchUp\ 2015/SketchUp.exe'
+#alias sketch16='env WINEPREFIX="/media/arch/archive/wineprefixes/sk2015" wine "C:\Program Files\SketchUp\SketchUp 2016\SketchUp.exe"'
 alias wsp="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
-alias panch="evince /media/arch/txt/panch2017.pdf"
+alias pan="evince /media/arch/txt/panch2018.pdf"
 alias gparted="sudo gparted"
 alias ari="aria2c --daemon=false"
-alias yooo="yoshimi -a -A -I -S '/home/brihaspati/.config/yoshimi/yoshimi.state'"
 alias mount="sudo mount"
 alias umount="sudo umount"
 alias db='sudo updatedb'
@@ -198,21 +190,35 @@ alias duss="du -ha | sort -n | grep '[0-9]M'"
 alias txt="vim ~/txt/comm333.wiki"
 alias nc="ncmpcpp"
 alias fb="ebook-viewer --detach"
-alias -g G='| egrep'
-alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -localtime -drive file=/mnt/raw/w7sm,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
-alias spi='spicy -h 127.0.0.1 -p 5930'
-alias xp='qemu-system-i386  -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 2096 -localtime -boot order=c -drive file=/mnt/raw/winXP,index=0,format=raw,if=virtio -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
-alias xp1='qemu-system-i386  -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 2096 -localtime -boot order=c -drive file=/mnt/raw/xpie.qcow2,index=0,format=qcow2,if=virtio -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
-alias ran='ranger'
-alias ran='e=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
-alias spi='spicy -h 127.0.0.1 -p 5930'
-alias xp='qemu-system-i386  -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 2096 -localtime -boot order=c -drive file=/mnt/raw/winXP,index=0,format=raw,if=virtio -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
-alias ran='ranger'
-alias wiki='env WINEPREFIX=/media/arch/archive/wineprefixes/w64 wine /media/arch/progrwine/outwiker/outwiker.exe'
-alias xena='env WINEPREFIX=/media/arch/archive/wineprefixes/w64  wine /media/arch/progrwine/01tc/XnView/xnview.exe'
+#alias -g G='| egrep'
+alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -machine type=pc,accel=kvm -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -rtc base=localtime -drive file=/mnt/raw/w7sm,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
+#alias w7='/usr/bin/qemu-system-x86_64 -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 4096 -localtime -drive file=/mnt/raw/w7sm,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
+#alias xp='qemu-system-i386  -monitor stdio -cpu host -soundhw es1370,ac97 -vga qxl -enable-kvm -m 2096 -localtime -boot order=c -drive file=/mnt/raw/xpie.qcow2,index=0,format=qcow2,if=virtio -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio -boot once=c,menu=on -net nic,model=virtio -net nic -net user,smb=/media/arch/ -spice port=5930,disable-ticketing'
+alias xpp='qemu-system-x86_64 -enable-kvm -m 2048 -vga qxl -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -machine type=pc,accel=kvm -monitor stdio -soundhw es1370,ac97 -rtc base=localtime -net nic,model=virtio -net user,smb=/media/arch/ -spice port=5930,disable-ticketing -drive file=/mnt/raw/xp_bu.qcow2,format=qcow2,if=virtio,index=0,media=disk -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio,index=1 -boot order=c,menu=on'
+#alias xpp='qemu-system-x86_64 -enable-kvm -m 2048 -vga qxl -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -machine type=pc,accel=kvm -monitor stdio -soundhw es1370,ac97 -rtc base=localtime -net nic,model=virtio -net user,smb=/media/arch/ -spice port=5930,disable-ticketing -drive file=/mnt/raw/xp64.qcow2,format=qcow2,if=virtio,index=0,media=disk -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio,index=1 -boot order=c,menu=on'
+alias xp='qemu-system-x86_64 -enable-kvm -m 2048 -vga qxl -cpu host -machine accel=kvm -monitor stdio -soundhw ac97 -rtc base=localtime -net nic,model=virtio -net user,smb=/media/arch/ -spice port=5930,disable-ticketing -drive file=/mnt/raw/aqemu/wxp_b.qcow2,format=qcow2,if=virtio,index=0,media=disk -drive file=/mnt/raw/dataXP,index=1,format=raw,if=virtio,index=1 -boot order=c,menu=on'
+alias spi='spicy -h 127.0.0.1 -p 5930 -f'
 alias cool='env WINEPREFIX=/media/arch/archive/wineprefixes/w64  wine /media/arch/progrwine/01tc/AlReader/AlReader2.win32.ru/AlReader2.exe'
-alias foxit=' exec "/opt/cxoffice/bin/wine" --bottle "foxitreader" --check --wait-children --start "C:/users/crossover/Desktop/FoxitReader.lnk" "$@"'
 alias extract="/bin/extract"
+#alias pmmig="python manage.py makemigrations"
+#alias pmig="python manage.py migrate"
+#alias prun="python manage.py runserver"
+alias act="source ./bin/activate"
+alias gp="/media/arch/iso/01torr/GP6/GuitarPro-6.1.9r11686/GuitarPro6/launcher"
 #FASD
 eval "$(fasd --init auto)"
 eval "$(fasd --init posix-alias zsh-hook)"
+alias -g G='| egrep'
+alias pacs="pacman -Ss"
+alias paci="sudo pacman -S"
+alias pacu="sudo pacman -Syyu"
+alias pacman-list-orphans="sudo pacman --query --deps --unrequired"
+alias pacman-remove-orphans="sudo pacman --remove --recursive \$(pacman --quiet --query --deps --unrequired)"
+alias pacX="sudo pacman -Rns"
+alias pacor="pacman -Qttdq"
+alias snap=" sudo /etc/cron.weekly/btrfs"
+alias de='deactivate'
+#python virtualenv
+#export WORKON_HOME=~/.virtualenvs
+#export PROJECT_HOME=~/.virt_project
+#source /usr/bin/virtualenvwrapper.sh

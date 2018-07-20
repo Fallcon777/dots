@@ -1,4 +1,12 @@
-!xcursor.theme:            Vanilla-DMZ
+! Xft settings ---------------------------------------------------------------
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
 URxvt*termName:           rxvt-256color
 URxvt.depth: 32
 URxvt*scrollBar:                      false
@@ -7,48 +15,27 @@ URxvt*cursorBlink:                    true
 URxvt*saveLines:                      5000
 URxvt*foreground: #839496 
 URxvt*background: #000000
-! Не прокручивать при выводе
 URxvt*scrollTtyOutput: false
 ! прокручивать по отношению к буферу (прокрутка мышью или Shift+Page Up)
 URxvt*scrollWithBuffer: true
 ! прокрутка по нажатию клавиши
 URxvt*scrollTtyKeypress: true
 URxvt.scrollstyle: plain
-!URxvt*font:xft:Terminus:pixelsize=14:style=regular,antialias=false
-!URxvt*boldFont:xft:Terminus:pixelsize=14:antialias=false
-URxvt.font: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-iso8859-* 
-URxvt.boldFont: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-iso8859-* 
-!URxvt.font: -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 
-!Urxvt.font: -*-terminus-bold-*-*-*-16-*-*-*-*-*-*-*
-!Urxvt.font: terv14n
-!URxvt*font:              xft:Tewi:regular:size=11
-!URxvt*imFont:            xft:Tewi:regular:size=11
-!URxvt*boldFont:          xft:Tewi:regular:size=11
-!URxvt*italicFont:        xft:Tewi:regular:size=11
-!URxvt*boldItalicFont:    xft:Tewi:regular:size=11
-!URxvt.font: xft:Fira Mono:pixelsize=15,style=regular
-!URxvt.boldFont: xft:Fira Mono:pixelsize=15,style=regular
-!URxvt.italicFont: xft:Fira Mono:pixelsize=15,style=bold
-!URxvt.boldItalicFont: xft:Fira Mono:pixelsize=15,style=bold
+URxvt.font:xft:xos4 Terminus:size=12
+URxvt.boldFont: xft:xos4 Terminus:size=12
 !URxvt.font: 9x15
-!URxvt.boldFont: 9x15
+!URxvt.font: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-iso8859-* 
+!URxvt.boldFont: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-iso8859-* 
 URxvt.internalBorder:     0
+!URxvt*letterSpace: -1  
 URxvt*letterSpace: 0  
-!URxvt*letterSpace: 0  
 URxvt*selectToClipboard:  true
-URxvt.perl-ext:
-URxvt.perl-ext-common:
 !Для назначения работы Ctrl+Shift, 
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 URxvt*cursorColor:        #8ae234
-!URxvt*colorUL:            #8ae234
-!URxvt.colorUL: #4682B4
-!URxvt*underlineColor:     #92659a
-!URxvt*colorBL:     #92659a
 URxvt.colorIT:      #87af5f
 URxvt.colorBD:      #8ae234           
-!URxvt.colorBD:      #ff6565
 URxvt.colorUL:      #87afd7
 ! black dark/light
 URxvt*color0:             #000000
@@ -106,13 +93,3 @@ xscreensaver.unfade:      false
 ! LightGrey + White
 *color7:  #cccccc
 *color15: #ffffff
-! Xft settings ---------------------------------------------------------------
-
-Xft.dpi: 96
-Xft.antialias: true
-Xft.hinting: true
-Xft.rgba: rgb
-Xft.autohint: false
-Xft.hintstyle: hintslight
-Xft.lcdfilter: lcddefault
-

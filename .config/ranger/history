@@ -1,50 +1,50 @@
-rename bu_common.py~
-rename upgrade.upg
-rename nakshatras
-rename resalt.html
-rename resalts.html
-rename nakshatra
-rename nakshatra_list.html
-rename nakshatradata_list.html
-rename rutracker.py~~~
-rename rutracker.py
-search .config
-search ran
-exhe
-cd
-unzip
-open_with unzip -j
-open_with eog
-open_with vlc
-open_with unzip
-open_with xarchiver
-open_with dtrx
-open_with
-shell vim 01novaposhta.txt -d
-shell -d vim 01novaposhta.txt 
-shell -d vim 
-extr
-fasd
-open_with chromium
-mkcd 00001
-fasd 001
-find .zpre
-find fa
-flat 
-bulkrename 
-bulkrename %s
-bulkrename %S
-bulkrename %d
-flat
-flat 1
-flat 0
-open_with 4
+mkdir jpg
+rename mash_obuch_oreely_2018
+rename OReillyHeadFirstPython.pdf
+rename OReillyPythonforDataAnalysis.pdf
+chmod -x
+chmod 666
+chmod 744
+mkdir pyth_dat_an
+rename McKinney W. - Python for Data Analysis, Second Edition - 2017
+rename McKinney_pyth_dat_an
+rename McKinney_pyth_dat_2017
+rename OReilly_Head_First_Python.pdf
+mkdir 01django
+rename LutzPythonOReilly4th.pdf
+mkdir scraping
+mkdir machine_learning
+rename 02machine_learning
+rename 02scraping
+rename 03McKinney_pyth_dat_2017
+search script
+find scr
+rename .script
+rename .scripts
+find .confi
+rename bookmarks
+find .sc
+open_with 
+rm -f %s
+shell sudo rm %s
+shell rm %s
+shell sudo rmdir -f %s
+shell rmdir -f %s
+shell rmdir %s r
+delete r
+delete -r
+delete %s
+delete -r %s
+delete r %s
+delete 
+delete %s r
+meta title how to git
+mkdir firr
 
-fzf_select urls
-fzf_select urls ./
-fzf_select models ./
-fzf_select models.py ./
-fzf_select
-fasd astro
-fasd conf
+find sl
+filter 
+find 
+filter .mp4
+filter .m
+cd /tmp
 delete

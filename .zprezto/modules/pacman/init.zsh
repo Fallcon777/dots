@@ -86,6 +86,7 @@ fi
 
 # Synchronizes the local package database against the repositories then
 # upgrades outdated packages.
-alias pacu="${_pacman_sudo}${_pacman_frontend} --sync --refresh --sysupgrade"
+#alias pacu="${_pacman_sudo}${_pacman_frontend} --sync --refresh --sysupgrade"
+alias pacu="sudo pacman -Syu"
 
 unset _pacman_{frontend,sudo,package_ext}

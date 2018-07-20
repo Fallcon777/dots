@@ -10,12 +10,12 @@
 # keycode with c:nnn or the modifier with m:nnn where nnn is 
 # the keycode or the state returned by xev 
 #
-# This file is created by xbindkey_config 
-# The structure is : 
-# # Remark 
-# "command" 
-# m:xxx + c:xxx 
-# Shift+... 
+# This file is created by xbindkey_config
+# The structure is :
+# # Remark
+# "command"
+# m:xxx + c:xxx
+# Shift+...
 
 #keystate_numlock = enable
 #keystate_scrolllock = enable
@@ -27,24 +27,29 @@
 
 "systemctl suspend"
 m:0xc + c:10
-    Control+Alt + 1
+Control+Alt + 1
 
 "systemctl poweroff"
 m:0xc + c:11
-    Control+Alt + 2
+Control+Alt + 2
+
+"systemctl reboot"
+m:0xc + c:12
+Control+Alt + 3
+
 
 "~/servis/script/touchdown.sh"
- m:0x8 + c:32
-    Alt + o
+m:0x8 + c:32
+Alt + o
 
 "~/servis/script/touchup.sh"
- m:0x9 + c:32
-    Shift+Alt + o
+m:0x9 + c:32
+Shift+Alt + o
 
 
 "mpc toggle"
-    m:0x8 + c:58
-    Alt + m
+m:0x8 + c:58
+Alt + m
 
 #"~/servis/script/mpdlist.sh"
 #    m:0x9 + c:33
@@ -52,11 +57,10 @@ m:0xc + c:11
 
 #"mocp --next"
 "mpc next"
-   m:0x8 + c:57
-	 Alt + n
+m:0x8 + c:57
+ Alt + n
 
 #"mocp -G"
-#"mpc toggle"
 #    m:0x9 + c:58
 #    Shift+Alt + m 
 
@@ -72,6 +76,10 @@ m:0xc + c:11
     m:0x4 + c:12
     Control + 3 
 
+"setxkbmap -option grp:switch, sk"
+    m:0x4 + c:13
+    Control + 4
+
 "xbacklight -9"
    m:0x0 + c:232
    XF86MonBrightnessDown 
@@ -81,7 +89,8 @@ m:0xc + c:11
    XF86MonBrightnessUp 
 
 #"urxvt -geometry 180x70 -e mc"
-"urxvtc -e mc"
+#"urxvtc -e mc"
+"terminator"
     m:0x8 + c:54
     Alt + c 
 
@@ -93,12 +102,16 @@ m:0xc + c:11
 #"firefox"
 #"chromium"
 #"midori"
-#    m:0x8 + c:41
-#    Alt + f 
+	#m:0x8 + c:41
+	#Alt + f 
 
 "leafpad"
     m:0x8 + c:46
-    Alt + l 
+    Alt + l
+
+"geany"
+    m:0x8 + c:42
+    Alt + g
 
 #"mocp -G"
 #    m:0x5 + c:58
@@ -120,9 +133,32 @@ XF86AudioLowerVolume
 m:0x0 + c:121
 XF86AudioMute 
 
+"scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/temp/shots/'"
+m:0x4 + c:218
+Control + Print
+
+
+"scrot '%Y_%m_%d_%H_%M_screenshot.png' -e 'mv $f ~/temp/shots/'"
+c:218
+Print
+
 #delsong
 #"~/servis/script/delsong.sh"
 #"mpc del 0"
 #    m:0x9 + c:40
 #    Shift+Alt + d 
 
+"~/servis/script/rofi-scripts-master/rofi-surfraw/rofi-surfraw"
+#m:0x18 + c:39
+#Alt+Mod2 + s
+m:0x14 + c:24
+Control+Mod2 + q
+
+
+#m:0x50 + c:133
+#Mod2+Mod4 + Super_L
+#win+s
+#
+"urxvt"
+m:0x8 + c:56
+Alt + b
