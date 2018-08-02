@@ -42,9 +42,11 @@ xbindkeys &
 mpd ~/.config/mpd/mpd.conf
 #mpd &
 xrefresh &
-#i3-msg workspace 4
-#i3-msg 'exec urxvtc -e mc'
-#sleep 1s
-#i3-msg workspace 1
+i3-msg workspace 4
+i3-msg 'exec urxvtc -e ranger'
+i3-msg workspace 2
+i3-msg 'exec urxvtc -e vim'
+sleep 1s
+i3-msg workspace 1
 urxvtc &
 exit 0

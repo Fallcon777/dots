@@ -25,7 +25,7 @@ bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec urxvtc -e ranger
 #bindsym $mod+Shift+F4 exec urxvtc -e mc
-bindsym $mod+F5 exec urxvtc -e 'ncmpcpp'
+bindsym $mod+F5 exec urxvtc -e 'vim'
 #for_window [class="^URxvt$" instance="scratchpad"] border 1pixel; move scratchpad
 floating_modifier $mod
 for_window [class="spicy"] floating enable

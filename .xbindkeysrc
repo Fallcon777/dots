@@ -109,7 +109,8 @@ m:0x8 + c:57
     m:0x8 + c:46
     Alt + l
 
-"geany"
+#"geany"
+"urxvt -e vim"
     m:0x8 + c:42
     Alt + g
 
@@ -148,17 +149,8 @@ Print
 #    m:0x9 + c:40
 #    Shift+Alt + d 
 
-"~/servis/script/rofi-scripts-master/rofi-surfraw/rofi-surfraw"
+#"~/servis/script/rofi-scripts-master/rofi-surfraw/rofi-surfraw"
 #m:0x18 + c:39
 #Alt+Mod2 + s
-m:0x14 + c:24
-Control+Mod2 + q
-
-
-#m:0x50 + c:133
-#Mod2+Mod4 + Super_L
-#win+s
-#
-"urxvt"
-m:0x8 + c:56
-Alt + b
+#m:0x14 + c:24
+#Control+Mod2 + q

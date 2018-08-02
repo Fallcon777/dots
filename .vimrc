@@ -145,10 +145,11 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'vimwiki/vimwiki'
 Plugin 'majutsushi/tagbar'
 Plugin 'junegunn/fzf'
-"Plugin 'junegunn/fzf'
 Plugin 'tpope/vim-fugitive'
 "Plugin 'vim-scripts/translit_converter'
 Plugin 'mileszs/ack.vim'
+Plugin 'mru.vim'
+Plugin 'python-mode/python-mode'
 ""ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
@@ -166,13 +167,13 @@ let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
 "buffer
+map <C-b> :CtrlPBuffer<CR>
 nnoremap <Leader>j :bp<CR>
 nnoremap <Leader>k :bn<CR>
 nnoremap <Leader>g :e#<CR>
 nmap <leader>bn :enew<cr>
 "close buffer
 nnoremap <Leader>q :bd<CR>
-nmap <leader>bq :bp <BAR> bd #<cr>
 nmap <leader>h :ls<cr>
 nnoremap <Leader>1 :1b<CR>
 nnoremap <Leader>2 :2b<CR>
@@ -197,19 +198,19 @@ nmap <Leader>f <Plug>(easymotion-overwin-f)
 " s{char}{char} to move to {char}{char}
 nmap <Leader>s <Plug>(easymotion-overwin-f2)
 " Move to line
-map <Leader>l <Plug>(easymotion-bd-jk)
-nmap <Leader>l <Plug>(easymotion-overwin-line)
+"map <Leader>l <Plug>(easymotion-bd-jk)
+"nmap <Leader>l <Plug>(easymotion-overwin-line)
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
 "  FZF
 map <C-f> :FZF<CR>
 map <C-l> :Locate<space>
-map <C-m> :FZFMru<CR>
+map <C-m> :CtrlPMRUFiles<CR>
+map  <Leader>m :Mru<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 "ack Ag
-nmap <leader>/ :Ag<space>
-Plugin 'python-mode/python-mode'
+"nmap <leader>/ :Ag<space>
 let g:pymode_python = 'python3'
 "Turn on the whole plugin      *'g:pymode'*
 let g:pymode = 1

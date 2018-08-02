@@ -219,6 +219,8 @@ alias pacor="pacman -Qttdq"
 alias snap=" sudo /etc/cron.weekly/btrfs"
 alias de='deactivate'
 #python virtualenv
-#export WORKON_HOME=~/.virtualenvs
-#export PROJECT_HOME=~/.virt_project
+export WORKON_HOME=~/.virtualenvs
+export PROJECT_HOME=~/.virt_project
+export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper_lazy.sh
 #source /usr/bin/virtualenvwrapper.sh

@@ -1,50 +1,50 @@
-mkdir jpg
-rename mash_obuch_oreely_2018
-rename OReillyHeadFirstPython.pdf
-rename OReillyPythonforDataAnalysis.pdf
-chmod -x
-chmod 666
-chmod 744
-mkdir pyth_dat_an
-rename McKinney W. - Python for Data Analysis, Second Edition - 2017
-rename McKinney_pyth_dat_an
-rename McKinney_pyth_dat_2017
-rename OReilly_Head_First_Python.pdf
-mkdir 01django
-rename LutzPythonOReilly4th.pdf
-mkdir scraping
-mkdir machine_learning
-rename 02machine_learning
-rename 02scraping
-rename 03McKinney_pyth_dat_2017
-search script
-find scr
-rename .script
-rename .scripts
-find .confi
-rename bookmarks
-find .sc
-open_with 
-rm -f %s
-shell sudo rm %s
-shell rm %s
-shell sudo rmdir -f %s
-shell rmdir -f %s
-shell rmdir %s r
-delete r
-delete -r
-delete %s
-delete -r %s
-delete r %s
-delete 
-delete %s r
-meta title how to git
-mkdir firr
-
-find sl
-filter 
-find 
-filter .mp4
 filter .m
 cd /tmp
+rename astro_project
+rename astro
+meta title secrett
+find .confi
+find ran
+find python3
+find sit
+find rang
+redrow
+redraw_window 
+redraw
+ls
+execute_command ls
+execute_command zsh
+zsh
+history_go 
+history_go back
+history_go 1
+history_go 2
+history_go 0
+taskview_close 
+shell touch ooo
+uncut 
+delete 
+find git
+search git
+mkcd git
+rename 01python_django_postgress.txt
+mkcd btrfs
+f
+rename 2016_2Cellos_DiscoverFLAC
+rename 2017_2Cellos_Score_FLAC
+rename 2Cellos_Discography
+rename 2Cellos_Diskography_AAC
+mkdir 2018_07_23
+cd /mnt
+find pac
+search pass
+find hosts
+find 
+filter 
+rename 01django_postgress.txt
+mkcd 108names
+mkcd vimm
+find 108
+mkdir plugin
+
 delete
